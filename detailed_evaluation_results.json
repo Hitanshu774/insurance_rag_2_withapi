@@ -9,19 +9,19 @@
         "Thompson",
         "IIOTY"
       ],
-      "generated_answer": "Maxine won the prestigious Insurellm IIOTY Innovator Award in 2023.",
+      "generated_answer": "I don't have information about the winner of the IIOTY (Insurance Innovator of the Year) award in 2023. If you have any other questions about Insurellm or need details from the provided context, feel free to ask!",
       "reference_answer": "Maxine Thompson won the prestigious Insurellm Innovator of the Year (IIOTY) award in 2023.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.090909090909091,
-        "keyword_coverage": 66.66666666666666,
-        "keywords_found": 2
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
-        "accuracy": 3.333333333333333,
-        "completeness": 5.0,
-        "relevance": 3.2142857142857144,
-        "feedback": "Missing keywords: Thompson"
+        "accuracy": 1.6666666666666665,
+        "completeness": 3.0,
+        "relevance": 0.945945945945946,
+        "feedback": "Missing keywords: Maxine, Thompson | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -55,7 +55,7 @@
         "Avery",
         "Lancaster"
       ],
-      "generated_answer": "Insurellm was founded by **Avery Lancaster** in **2015**. She currently serves as the **Co-Founder & Chief Executive Officer (CEO)** of the company. Under her leadership, Insurellm has grown into a leading insurance tech provider with a focus on innovative products and sustainable growth.\n\nWould you like more details about Avery or the company's early days?",
+      "generated_answer": "Insurellm was founded by Avery Lancaster in 2015.",
       "reference_answer": "Avery Lancaster founded Insurellm in 2015.",
       "retrieval": {
         "mrr": 1.0,
@@ -66,8 +66,8 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.3773584905660377,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 3.75,
+        "feedback": "Answer too long - could be more concise"
       }
     },
     {
@@ -78,18 +78,18 @@
         "32",
         "employees"
       ],
-      "generated_answer": "As of 2025, Insurellm operates with a lean, highly efficient team of **32 employees**.",
+      "generated_answer": "As of 2025, Insurellm operates with a lean, highly efficient team of **32 employees**. This follows the company's strategic restructuring in 2022-2023 to focus on profitability and sustainable growth.",
       "reference_answer": "Insurellm currently operates with 32 employees as of 2025.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 0.6666666666666666,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.4705882352941178,
+        "relevance": 0.78125,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -101,147 +101,8 @@
         "Markellm",
         "first"
       ],
-      "generated_answer": "Insurellm's first product was **Markellm**, a marketplace designed to connect consumers with insurance providers. It was launched in 2015 as part of the company's initial offering to disrupt the insurance industry with innovative technology.",
+      "generated_answer": "Insurellm's first product was **Markellm**, a marketplace designed to connect consumers with insurance providers. It was launched when the company was founded in 2015.",
       "reference_answer": "Insurellm's first product was Markellm, the marketplace connecting consumers with insurance providers.",
-      "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
-      },
-      "answer": {
-        "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 1.6129032258064515,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
-      }
-    },
-    {
-      "test_number": 6,
-      "question": "How many active contracts does Insurellm manage?",
-      "category": "direct_fact",
-      "keywords": [
-        "32",
-        "contracts"
-      ],
-      "generated_answer": "Insurellm currently manages **32 active contracts** across all its insurance technology product lines. These contracts span commercial insurance, claims processing, life insurance, health insurance, auto insurance, and home insurance sectors.",
-      "reference_answer": "Insurellm manages 32 active contracts spanning all eight product lines.",
-      "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 2.0,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
-      },
-      "answer": {
-        "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 1.206896551724138,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
-      }
-    },
-    {
-      "test_number": 7,
-      "question": "Where is Insurellm's headquarters located?",
-      "category": "direct_fact",
-      "keywords": [
-        "San Francisco",
-        "headquarters"
-      ],
-      "generated_answer": "Insurellm's headquarters is located in **San Francisco, California**. The company also maintains small satellite offices in key markets such as New York, Austin, Chicago, and Denver.",
-      "reference_answer": "Insurellm's headquarters is located in San Francisco.",
-      "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
-      },
-      "answer": {
-        "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 0.9259259259259258,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
-      }
-    },
-    {
-      "test_number": 8,
-      "question": "How many office locations does Insurellm maintain?",
-      "category": "direct_fact",
-      "keywords": [
-        "offices in",
-        "5"
-      ],
-      "generated_answer": "As of 2025, Insurellm maintains **five office locations** across the U.S.:\n\n1. **San Francisco (HQ)**\n2. **New York**\n3. **Austin**\n4. **Chicago**\n5. **Denver**\n\nThese offices support a primarily remote workforce, with a lean team of 32 employees operating efficiently across all locations.",
-      "reference_answer": "Insurellm maintains 5 office locations: San Francisco, New York, Austin, Chicago, and Denver.",
-      "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
-      },
-      "answer": {
-        "accuracy": 2.5,
-        "completeness": 3.0,
-        "relevance": 0.3,
-        "feedback": "Missing keywords: offices in | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
-      }
-    },
-    {
-      "test_number": 9,
-      "question": "What is Insurellm's vision statement?",
-      "category": "direct_fact",
-      "keywords": [
-        "revolutionize",
-        "insurance",
-        "technology"
-      ],
-      "generated_answer": "Insurellm's vision statement is:\n\n**\"To revolutionize the insurance industry through innovative technology that makes insurance accessible, transparent, and effortless for everyone.\"**",
-      "reference_answer": "Insurellm's vision is to revolutionize the insurance industry through innovative technology that makes insurance accessible, transparent, and effortless.",
-      "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.9090909090909092,
-        "keyword_coverage": 100.0,
-        "keywords_found": 3
-      },
-      "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.0434782608695654,
-        "feedback": "Good answer!"
-      }
-    },
-    {
-      "test_number": 10,
-      "question": "How many Bizllm contracts has Insurellm secured?",
-      "category": "direct_fact",
-      "keywords": [
-        "7",
-        "Bizllm"
-      ],
-      "generated_answer": "Insurellm has secured **7 Bizllm contracts**, which include regional carriers, multi-line insurers, and national commercial insurance groups.",
-      "reference_answer": "Insurellm has secured 7 commercial insurance contracts for Bizllm.",
-      "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
-      },
-      "answer": {
-        "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 1.1904761904761905,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
-      }
-    },
-    {
-      "test_number": 11,
-      "question": "How many Claimllm contracts does Insurellm have?",
-      "category": "direct_fact",
-      "keywords": [
-        "7",
-        "Claimllm"
-      ],
-      "generated_answer": "Insurellm has **7 active Claimllm contracts**, ranging from independent adjusting firms to enterprise claims networks like National Claims Network Corp.",
-      "reference_answer": "Insurellm has 7 contracts for Claimllm, ranging from independent adjusting firms to enterprise claims networks.",
       "retrieval": {
         "mrr": 1.0,
         "ndcg": 1.3333333333333333,
@@ -256,6 +117,145 @@
       }
     },
     {
+      "test_number": 6,
+      "question": "How many active contracts does Insurellm manage?",
+      "category": "direct_fact",
+      "keywords": [
+        "32",
+        "contracts"
+      ],
+      "generated_answer": "Insurellm currently manages **32 active contracts** across its eight insurance technology platforms. These contracts span commercial insurance, claims processing, life insurance, health insurance, auto insurance, home insurance, and insurance marketplace solutions.",
+      "reference_answer": "Insurellm manages 32 active contracts spanning all eight product lines.",
+      "retrieval": {
+        "mrr": 1.0,
+        "ndcg": 2.0,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
+      },
+      "answer": {
+        "accuracy": 5.0,
+        "completeness": 3.0,
+        "relevance": 0.8064516129032258,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+      }
+    },
+    {
+      "test_number": 7,
+      "question": "Where is Insurellm's headquarters located?",
+      "category": "direct_fact",
+      "keywords": [
+        "San Francisco",
+        "headquarters"
+      ],
+      "generated_answer": "Insurellm's headquarters is located in San Francisco.",
+      "reference_answer": "Insurellm's headquarters is located in San Francisco.",
+      "retrieval": {
+        "mrr": 0.5,
+        "ndcg": 0.3333333333333333,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
+      },
+      "answer": {
+        "accuracy": 5.0,
+        "completeness": 5.0,
+        "relevance": 5.0,
+        "feedback": "Good answer!"
+      }
+    },
+    {
+      "test_number": 8,
+      "question": "How many office locations does Insurellm maintain?",
+      "category": "direct_fact",
+      "keywords": [
+        "offices in",
+        "5"
+      ],
+      "generated_answer": "As of 2025, Insurellm maintains **five office locations** across the U.S.:\n\n1. **San Francisco (HQ)**\n2. **New York**\n3. **Austin**\n4. **Chicago**\n5. **Denver**\n\nThese offices support the company\u2019s remote-first strategy while maintaining a presence in key markets.",
+      "reference_answer": "Insurellm maintains 5 office locations: San Francisco, New York, Austin, Chicago, and Denver.",
+      "retrieval": {
+        "mrr": 1.0,
+        "ndcg": 1.6666666666666667,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
+      },
+      "answer": {
+        "accuracy": 2.5,
+        "completeness": 3.0,
+        "relevance": 0.3191489361702127,
+        "feedback": "Missing keywords: offices in | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+      }
+    },
+    {
+      "test_number": 9,
+      "question": "What is Insurellm's vision statement?",
+      "category": "direct_fact",
+      "keywords": [
+        "revolutionize",
+        "insurance",
+        "technology"
+      ],
+      "generated_answer": "I don't have the information about Insurellm's vision statement in the provided context. Could you please provide more details or context so I can assist you better?",
+      "reference_answer": "Insurellm's vision is to revolutionize the insurance industry through innovative technology that makes insurance accessible, transparent, and effortless.",
+      "retrieval": {
+        "mrr": 1.0,
+        "ndcg": 1.1818181818181819,
+        "keyword_coverage": 66.66666666666666,
+        "keywords_found": 2
+      },
+      "answer": {
+        "accuracy": 0.0,
+        "completeness": 3.0,
+        "relevance": 0.39473684210526316,
+        "feedback": "Missing keywords: revolutionize, insurance, technology | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+      }
+    },
+    {
+      "test_number": 10,
+      "question": "How many Bizllm contracts has Insurellm secured?",
+      "category": "direct_fact",
+      "keywords": [
+        "7",
+        "Bizllm"
+      ],
+      "generated_answer": "Insurellm has secured **7 commercial insurance contracts** for **Bizllm**, including regional carriers and national commercial groups.",
+      "reference_answer": "Insurellm has secured 7 commercial insurance contracts for Bizllm.",
+      "retrieval": {
+        "mrr": 1.0,
+        "ndcg": 1.3333333333333333,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
+      },
+      "answer": {
+        "accuracy": 5.0,
+        "completeness": 3.0,
+        "relevance": 1.6666666666666665,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+      }
+    },
+    {
+      "test_number": 11,
+      "question": "How many Claimllm contracts does Insurellm have?",
+      "category": "direct_fact",
+      "keywords": [
+        "7",
+        "Claimllm"
+      ],
+      "generated_answer": "Insurellm has **7 active Claimllm contracts**, ranging from independent adjusting firms to enterprise claims networks, including the recent agreement with **National Claims Network Corp.** (signed April 20, 2025).\n\nWould you like details on any specific contracts or capabilities of Claimllm?",
+      "reference_answer": "Insurellm has 7 contracts for Claimllm, ranging from independent adjusting firms to enterprise claims networks.",
+      "retrieval": {
+        "mrr": 1.0,
+        "ndcg": 1.3333333333333333,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
+      },
+      "answer": {
+        "accuracy": 5.0,
+        "completeness": 3.0,
+        "relevance": 1.2790697674418605,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+      }
+    },
+    {
       "test_number": 12,
       "question": "How many life insurance contracts has Lifellm secured?",
       "category": "direct_fact",
@@ -263,7 +263,7 @@
         "6",
         "Lifellm"
       ],
-      "generated_answer": "Lifellm has secured **6 life insurance contracts**, serving carriers ranging from small regional providers to major national groups, including Metropolitan Life Group and Heritage Life Assurance.",
+      "generated_answer": "Lifellm has secured **6 life insurance contracts**, serving a range of clients from small regional providers to major national groups, including Metropolitan Life Group.",
       "reference_answer": "Lifellm has secured 6 life insurance contracts serving carriers from small regional providers to major national groups.",
       "retrieval": {
         "mrr": 1.0,
@@ -274,8 +274,8 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 2.5925925925925926,
-        "feedback": "Answer too long - could be more concise"
+        "relevance": 2.4074074074074074,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -286,19 +286,19 @@
         "6",
         "Healthllm"
       ],
-      "generated_answer": "Healthllm has 6 contracts with health plans, ranging from regional insurers to multi-state healthcare alliances.",
+      "generated_answer": "Insurellm's **Healthllm** has **6 active contracts** with health insurance providers, ranging from regional insurers to multi-state healthcare alliances.\n\nWould you like details on any specific contracts, such as the ones with **Advantage Medical Coverage** or **United Healthcare Alliance**?",
       "reference_answer": "Healthllm has 6 health insurance contracts with plans from regional insurers to multi-state healthcare alliances.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.8235294117647056,
-        "feedback": "Good answer!"
+        "completeness": 3.0,
+        "relevance": 1.375,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -314,7 +314,7 @@
       "reference_answer": "Carllm's Basic Tier costs $1,000 per month.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.8181818181818183,
+        "ndcg": 2.0909090909090913,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -334,18 +334,18 @@
         "Enterprise",
         "Carllm"
       ],
-      "generated_answer": "The provided context does not specify the monthly cost for **Carllm's Enterprise Tier**. However, it does mention that **Metropolitan Life Group** pays a custom Enterprise Tier pricing of **$28,000\u2013$33,000/month** (escalating over 36 months), while **Continental Commercial Group** pays **$42,000/month** for the first 12 months under a custom Enterprise agreement.\n\nSince pricing is tailored per client, you may need to contact **Insurellm** directly for a customized Enterprise Tier quote for **Carllm**.\n\nWould you like help finding contact details or further clarification on pricing structures?",
+      "generated_answer": "The monthly cost of Carllm's Enterprise Tier is custom pricing, tailored to meet the specific needs of large insurance companies that require full customization, dedicated support, and additional features such as enterprise-grade security and compliance. For a detailed quote, it's best to contact Insurellm directly.",
       "reference_answer": "Carllm's Enterprise Tier costs $5,000 per month.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
-        "keyword_coverage": 66.66666666666666,
-        "keywords_found": 2
+        "ndcg": 1.272727272727273,
+        "keyword_coverage": 100.0,
+        "keywords_found": 3
       },
       "answer": {
         "accuracy": 3.333333333333333,
         "completeness": 3.0,
-        "relevance": 0.22058823529411767,
+        "relevance": 0.3333333333333333,
         "feedback": "Missing keywords: $5,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -358,18 +358,18 @@
         "Standard",
         "Homellm"
       ],
-      "generated_answer": "The monthly cost for Homellm's **Standard Tier** starts at **$10,000/month**. This tier is designed for medium-sized insurers and includes advanced analytics and reporting tools, along with a comprehensive training program and ongoing updates.\n\nWould you like more details on what\u2019s included in this tier?",
+      "generated_answer": "The monthly cost of Homellm's Standard Tier is **$10,000/month**. This tier is designed for medium-sized insurers and includes advanced analytics and reporting tools, along with a comprehensive training program and ongoing updates.",
       "reference_answer": "Homellm's Standard Tier costs $10,000 per month for medium-sized insurers.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.9090909090909092,
+        "ndcg": 1.6363636363636365,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.43478260869565216,
+        "relevance": 0.7575757575757576,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -382,11 +382,11 @@
         "Professional",
         "Bizllm"
       ],
-      "generated_answer": "The monthly cost of Bizllm's Professional Tier is **$12,000/month**. This tier is designed for multi-line carriers and includes features such as cyber risk tools, advanced analytics, and expanded integration capabilities.",
+      "generated_answer": "The monthly cost of Bizllm's Professional Tier is **$12,000**. This tier is designed for multi-line carriers and includes features such as cyber risk tools, advanced analytics, and expanded integration capabilities.",
       "reference_answer": "Bizllm's Professional Tier costs $12,000 per month for multi-line carriers.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.9090909090909092,
+        "ndcg": 1.6363636363636365,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -410,7 +410,7 @@
       "reference_answer": "Claimllm's Core Tier costs $4,500 per month for smaller insurers processing up to 5,000 claims annually.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0909090909090913,
+        "ndcg": 1.8181818181818183,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -454,18 +454,18 @@
         "Starter",
         "Lifellm"
       ],
-      "generated_answer": "The monthly cost of Lifellm's **Starter Tier** is **$3,500**. This tier is designed for small insurers and includes core underwriting features and basic integrations.",
+      "generated_answer": "The monthly cost of Lifellm's Starter Tier is $3,500. This tier is designed for small insurers and includes core underwriting features and basic integrations.",
       "reference_answer": "Lifellm's Starter Tier costs $3,500 per month for small insurers.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6363636363636365,
+        "ndcg": 1.9090909090909092,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.7142857142857142,
+        "relevance": 0.9615384615384616,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -501,18 +501,18 @@
         "Senior Data Engineer",
         "Maxine"
       ],
-      "generated_answer": "Maxine Thompson's current job title is **Senior Data Engineer** at Insurellm.",
+      "generated_answer": "Maxine Thompson's current job title is **Senior Data Engineer**.",
       "reference_answer": "Maxine Thompson's current job title is Senior Data Engineer.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 2.692307692307692,
+        "relevance": 3.1818181818181817,
         "feedback": "Good answer!"
       }
     },
@@ -524,19 +524,19 @@
         "$120,000",
         "Maxine"
       ],
-      "generated_answer": "Maxine Thompson's current salary is **$120,000**.",
+      "generated_answer": "Maxine Thompson's current salary is **$120,000**. She holds the position of **Senior Data Engineer** at Insurellm.",
       "reference_answer": "Maxine Thompson's current salary is $120,000.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 2.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.5714285714285716,
-        "feedback": "Good answer!"
+        "completeness": 3.0,
+        "relevance": 1.4705882352941178,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -548,7 +548,7 @@
         "Texas",
         "Maxine"
       ],
-      "generated_answer": "Maxine Thompson is located in **Austin, Texas**.",
+      "generated_answer": "Maxine Thompson is located in Austin, Texas.",
       "reference_answer": "Maxine Thompson is located in Austin, Texas.",
       "retrieval": {
         "mrr": 1.0,
@@ -559,7 +559,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 2.7777777777777777,
+        "relevance": 5.0,
         "feedback": "Good answer!"
       }
     },
@@ -572,19 +572,19 @@
         "Avery",
         "Lancaster"
       ],
-      "generated_answer": "Avery Lancaster's job title is **Co-Founder & Chief Executive Officer (CEO)** at Insurellm.",
+      "generated_answer": "Avery Lancaster is the **Co-Founder & Chief Executive Officer (CEO)** of Insurellm.",
       "reference_answer": "Avery Lancaster is the Co-Founder and Chief Executive Officer (CEO) of Insurellm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6363636363636365,
+        "ndcg": 2.0909090909090913,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 1.5789473684210527,
-        "feedback": "Answer diverges from reference - may have hallucinations"
+        "relevance": 3.0,
+        "feedback": "Good answer!"
       }
     },
     {
@@ -619,19 +619,19 @@
         "James",
         "Wilson"
       ],
-      "generated_answer": "James Wilson's job title is **Chief Technology Officer (CTO)** at Insurellm.",
+      "generated_answer": "I don't have information about James Wilson's job title in the provided context. Could you clarify or provide more details?",
       "reference_answer": "James Wilson is the Chief Technology Officer (CTO) of Insurellm.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.6363636363636365,
-        "keyword_coverage": 100.0,
-        "keywords_found": 3
+        "mrr": 0.5,
+        "ndcg": 0.27272727272727276,
+        "keyword_coverage": 33.33333333333333,
+        "keywords_found": 1
       },
       "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 1.5625,
-        "feedback": "Answer diverges from reference - may have hallucinations"
+        "accuracy": 3.333333333333333,
+        "completeness": 3.0,
+        "relevance": 0.3571428571428571,
+        "feedback": "Missing keywords: CTO | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -643,19 +643,19 @@
         "James",
         "Wilson"
       ],
-      "generated_answer": "James Wilson's current salary is $285,000.",
+      "generated_answer": "James Wilson's current salary is not provided in the context. The latest available data is from 2023, where his base salary was $152,000 with a bonus of $28,000. If you need the most up-to-date information, I recommend checking with Insurellm's HR or compensation team.",
       "reference_answer": "James Wilson's current salary is $285,000.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.6363636363636365,
-        "keyword_coverage": 100.0,
-        "keywords_found": 3
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 5.0,
-        "feedback": "Good answer!"
+        "accuracy": 3.333333333333333,
+        "completeness": 3.0,
+        "relevance": 0.625,
+        "feedback": "Missing keywords: $285,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -666,19 +666,19 @@
         "Senior Data Scientist",
         "Priya"
       ],
-      "generated_answer": "I don't have information about Priya Sharma's job title in the provided context.",
+      "generated_answer": "Priya Sharma's job title is **Senior Data Scientist** at Insurellm.",
       "reference_answer": "Priya Sharma is a Senior Data Scientist at Insurellm.",
       "retrieval": {
-        "mrr": 0.0,
-        "ndcg": 0.0,
-        "keyword_coverage": 0.0,
-        "keywords_found": 0
+        "mrr": 1.0,
+        "ndcg": 1.3333333333333333,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
       },
       "answer": {
-        "accuracy": 2.5,
-        "completeness": 3.0,
-        "relevance": 0.23809523809523808,
-        "feedback": "Missing keywords: Senior Data Scientist | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "accuracy": 5.0,
+        "completeness": 5.0,
+        "relevance": 1.7857142857142858,
+        "feedback": "Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -689,18 +689,18 @@
         "$145,000",
         "Priya"
       ],
-      "generated_answer": "I don't have the current salary information for Priya Sharma in the provided context. If you have any other questions or need further assistance, feel free to ask!",
+      "generated_answer": "Priya Sharma's current salary is $152,000 base salary plus a $28,000 bonus.",
       "reference_answer": "Priya Sharma's current salary is $145,000.",
       "retrieval": {
-        "mrr": 0.0,
-        "ndcg": 0.0,
-        "keyword_coverage": 0.0,
-        "keywords_found": 0
+        "mrr": 0.5,
+        "ndcg": 0.3333333333333333,
+        "keyword_coverage": 50.0,
+        "keywords_found": 1
       },
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.5172413793103449,
+        "relevance": 2.0833333333333335,
         "feedback": "Missing keywords: $145,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -712,19 +712,19 @@
         "Senior Full Stack Engineer",
         "Robert"
       ],
-      "generated_answer": "Robert Chen's job title is **Chief Underwriting Officer** at **Fortress Business Underwriters**.",
+      "generated_answer": "Robert Chen's job title is **Senior Full Stack Engineer** at Insurellm.",
       "reference_answer": "Robert Chen is a Senior Full Stack Engineer at Insurellm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 0.7894736842105263,
-        "feedback": "Missing keywords: Senior Full Stack Engineer | Answer diverges from reference - may have hallucinations"
+        "relevance": 2.0,
+        "feedback": "Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -735,19 +735,19 @@
         "$152,000",
         "Robert"
       ],
-      "generated_answer": "Robert Chen's current salary is **$152,000**.",
+      "generated_answer": "I don't have the current salary information for Robert Chen. The most recent salary data I have for Robert Chen is from 2023, which was a base salary of $152,000 plus a bonus of $28,000. If you need the most up-to-date information, I would recommend checking with the HR department or the relevant personnel at Insurellm.",
       "reference_answer": "Robert Chen's current salary is $152,000.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "mrr": 1.0,
+        "ndcg": 0.6666666666666666,
+        "keyword_coverage": 50.0,
+        "keywords_found": 1
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.5714285714285716,
-        "feedback": "Good answer!"
+        "completeness": 3.0,
+        "relevance": 0.4545454545454546,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -759,19 +759,19 @@
         "Robert",
         "Chen"
       ],
-      "generated_answer": "Robert Chen serves as the technical lead for the **Homellm home insurance portal** at Insurellm.",
+      "generated_answer": "Robert Chen serves as the technical lead for the **Homellm home insurance portal**.",
       "reference_answer": "Robert Chen is the technical lead for Homellm home insurance portal.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.3636363636363638,
+        "ndcg": 1.8181818181818183,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 2.3529411764705883,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "completeness": 5.0,
+        "relevance": 2.6666666666666665,
+        "feedback": "Good answer!"
       }
     },
     {
@@ -783,7 +783,7 @@
         "David",
         "Kim"
       ],
-      "generated_answer": "I don't have any information about David Kim in the provided context. Could you please provide more details or clarify your question?",
+      "generated_answer": "I don't have information about David Kim's job title in the provided context. Could you provide more details or clarify your question?",
       "reference_answer": "David Kim is a DevOps Engineer at Insurellm.",
       "retrieval": {
         "mrr": 0.0,
@@ -794,7 +794,7 @@
       "answer": {
         "accuracy": 3.333333333333333,
         "completeness": 3.0,
-        "relevance": 0.3571428571428571,
+        "relevance": 0.1724137931034483,
         "feedback": "Missing keywords: DevOps Engineer | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -829,19 +829,19 @@
         "Homellm",
         "Sarah"
       ],
-      "generated_answer": "Sarah Williams leads the design for the **Homellm home insurance portal** at Insurellm.",
+      "generated_answer": "I don't have information about Sarah Williams or the product she leads design for. Could you provide more context or clarify your question?",
       "reference_answer": "Sarah Williams leads design for the Homellm home insurance portal.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 2.8571428571428568,
-        "feedback": "Good answer!"
+        "accuracy": 2.5,
+        "completeness": 3.0,
+        "relevance": 0.9259259259259258,
+        "feedback": "Missing keywords: Homellm | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -852,19 +852,19 @@
         "Customer Success Manager",
         "Marcus"
       ],
-      "generated_answer": "Marcus Johnson's current job title is **Chief Claims Officer** at Rapid Claims Associates, LLC. However, his previous job title at Insurellm was **Customer Success Manager**.",
+      "generated_answer": "I don't have information about Marcus Johnson's job title in the provided context. Is there anything else I can help you with regarding Insurellm?",
       "reference_answer": "Marcus Johnson is a Customer Success Manager at Insurellm.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
-        "accuracy": 5.0,
+        "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.7692307692307693,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.3333333333333333,
+        "feedback": "Missing keywords: Customer Success Manager | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -903,7 +903,7 @@
       "reference_answer": "Lisa Anderson is a Marketing Manager at Insurellm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
@@ -925,8 +925,8 @@
       "generated_answer": "Lisa Anderson's annual marketing budget is $2 million.",
       "reference_answer": "Lisa Anderson manages a $2M annual marketing budget.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "mrr": 0.5,
+        "ndcg": 0.6666666666666666,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
@@ -945,19 +945,19 @@
         "Account Executive",
         "Emily"
       ],
-      "generated_answer": "Emily Carter's job title is **Account Executive** at Insurellm.",
+      "generated_answer": "The provided context does not explicitly state Emily Carter's current job title at Insurellm. However, it mentions that she is enrolled in a leadership training program and aims to move into a **senior account role** within the next two years. This suggests she may currently hold a position in account management or a related field.\n\nIf you'd like more details, I can check if additional information is available!",
       "reference_answer": "Emily Carter is an Account Executive at Insurellm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "ndcg": 1.0,
+        "keyword_coverage": 50.0,
+        "keywords_found": 1
       },
       "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 1.5384615384615385,
-        "feedback": "Answer diverges from reference - may have hallucinations"
+        "accuracy": 2.5,
+        "completeness": 3.0,
+        "relevance": 0.4032258064516129,
+        "feedback": "Missing keywords: Account Executive | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -991,18 +991,18 @@
         "36 months",
         "DriveSmart"
       ],
-      "generated_answer": "The DriveSmart Insurance contract for Carllm has a duration of **36 months**, effective from **March 20, 2025**.",
+      "generated_answer": "The DriveSmart Insurance contract with Insurellm for the Carllm platform has a duration of **36 months**, starting from the contract date of **March 20, 2025**.",
       "reference_answer": "The DriveSmart Insurance Carllm contract is effective for a period of 36 months.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 2.142857142857143,
+        "relevance": 1.5384615384615385,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1014,18 +1014,18 @@
         "$702,000",
         "DriveSmart"
       ],
-      "generated_answer": "The total contract value for DriveSmart Insurance's Carllm agreement is **$702,000** over the 36-month term. This includes:\n\n- **$18,000/month** for the first 12 months,\n- **$19,500/month** for months 13\u201324,\n- **$21,000/month** for months 25\u201336.",
+      "generated_answer": "The total contract value for DriveSmart Insurance's Carllm agreement is **$702,000** over the 36-month term. Here's the breakdown:\n\n- **First 12 months:** $18,000/month \u00d7 12 = **$216,000**\n- **Months 13\u201324:** $19,500/month \u00d7 12 = **$234,000**\n- **Months 25\u201336:** $21,000/month \u00d7 12 = **$252,000**\n\n**Total:** $216,000 + $234,000 + $252,000 = **$702,000**",
       "reference_answer": "The total contract value for DriveSmart Insurance's Carllm agreement is $702,000 over the 36-month term.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 0.6666666666666666,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 2.4074074074074074,
+        "relevance": 1.7567567567567568,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1042,7 +1042,7 @@
       "reference_answer": "DriveSmart Insurance currently has 85,000 active auto policies across 8 states.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.6363636363636362,
+        "ndcg": 3.0,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -1062,18 +1062,18 @@
         "uptime",
         "DriveSmart"
       ],
-      "generated_answer": "The uptime SLA guarantee for DriveSmart Insurance is **99.9% platform uptime measured monthly**. If the uptime falls below this target, Insurellm provides an **8% monthly credit for each 0.1% below the target**, with a **maximum of 40% monthly credit**.",
+      "generated_answer": "The uptime SLA guarantee for DriveSmart Insurance is **99.9% platform uptime measured monthly**. If the uptime falls below this target, DriveSmart receives an **8% monthly credit for each 0.1% below the target**, with a **maximum of 40% monthly credit**.",
       "reference_answer": "Insurellm guarantees 99.9% platform uptime measured monthly for DriveSmart Insurance.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.6363636363636362,
+        "ndcg": 2.272727272727273,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.0,
+        "relevance": 0.8571428571428572,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1085,19 +1085,19 @@
         "Jennifer Rodriguez",
         "DriveSmart"
       ],
-      "generated_answer": "The contract shows that **John Smith**, the **Account Manager** at Insurellm, was the representative designated to sign the agreement with DriveSmart Insurance. However, the document does not indicate whether his signature was actually provided (the line is blank in the context).\n\nFor confirmation, you may want to check the fully executed version of the contract or contact Insurellm\u2019s legal or account management team. Would you like help finding the right contact?",
+      "generated_answer": "The contract with DriveSmart Insurance was signed on behalf of Insurellm by **Jennifer Rodriguez**, the **Chief Executive Officer (CEO)** of Insurellm, Inc. The signing date was **March 20, 2025**.",
       "reference_answer": "Jennifer Rodriguez, CEO of Insurellm, signed the DriveSmart Insurance contract.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 0.6666666666666666,
-        "keyword_coverage": 50.0,
-        "keywords_found": 1
+        "ndcg": 1.6666666666666667,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.3125,
-        "feedback": "Missing keywords: Jennifer Rodriguez | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 1.0344827586206897,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -1108,18 +1108,18 @@
         "$10,000",
         "Greenstone"
       ],
-      "generated_answer": "The monthly payment for Greenstone Insurance's Homellm contract is not explicitly stated in the provided context. The context mentions a monthly fee of $10,000 for GreenValley Insurance, but it does not specify the payment details for Greenstone Insurance. If you have any other questions or need further assistance, feel free to ask!",
+      "generated_answer": "The monthly payment for Greenstone Insurance's Homellm contract is **$10,000** for the Standard Tier of the service. Payments are due within 30 days of invoicing.",
       "reference_answer": "Greenstone Insurance pays $10,000 per month for the Standard Tier of the Homellm service.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.6,
+        "relevance": 1.5384615384615385,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1154,7 +1154,7 @@
         "$15,000",
         "Harmony"
       ],
-      "generated_answer": "The monthly cost for Harmony Health Plans' Healthllm subscription is **$15,000** under the **Professional Tier**. This plan supports up to 50,000 covered members and includes advanced features like predictive modeling and expanded integrations.\n\nWould you like details on payment terms or additional user licenses?",
+      "generated_answer": "The monthly cost for Harmony Health Plans' Healthllm subscription is **$15,000/month** under the **Professional Tier**. This totals **$360,000** for the full 24-month contract duration.\n\nWould you like details on payment terms or additional user licenses?",
       "reference_answer": "Harmony Health Plans pays $15,000 per month for the Professional Tier of Healthllm.",
       "retrieval": {
         "mrr": 1.0,
@@ -1165,7 +1165,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.4,
+        "relevance": 0.4878048780487805,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1200,7 +1200,7 @@
         "Sarah Chen",
         "Harmony"
       ],
-      "generated_answer": "The Harmony Health Plans contract was signed on behalf of Insurellm by **Sarah Chen**, the **Vice President of Sales**, on **January 25, 2025**.",
+      "generated_answer": "The contract with Harmony Health Plans was signed on behalf of Insurellm by **Sarah Chen**, the **Vice President of Sales** at Insurellm, Inc., on **January 25, 2025**.",
       "reference_answer": "Sarah Chen, Vice President of Sales at Insurellm, signed the Harmony Health Plans contract.",
       "retrieval": {
         "mrr": 1.0,
@@ -1211,7 +1211,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.2962962962962963,
+        "relevance": 1.5517241379310345,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1250,7 +1250,7 @@
       "reference_answer": "The total contract value for Metropolitan Life Group's Lifellm agreement is $1,098,000 over the 36-month term.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
@@ -1269,18 +1269,18 @@
         "50,000",
         "Metropolitan"
       ],
-      "generated_answer": "Metropolitan Life Group manages over 50,000 active policies, with the capability to scale up to 200,000+ policies as their business expands. This is supported by Insurellm's **Unlimited Policy Administration** feature, which has no capacity restrictions.",
+      "generated_answer": "Metropolitan Life Group manages **50,000+ active policies** with the ability to scale to **200,000+** as their business expands. This is supported by Insurellm's **Unlimited Policy Administration** feature, which has no capacity restrictions.",
       "reference_answer": "Metropolitan Life Group manages 50,000+ active policies.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.6944444444444444,
+        "relevance": 0.7575757575757576,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1292,7 +1292,7 @@
         "Richard Thompson",
         "Metropolitan"
       ],
-      "generated_answer": "The contract with Metropolitan Life Group was signed by **Richard Thompson**, who holds the title of **Chairman & Chief Executive Officer** of Metropolitan Life Group, Inc. The signing took place on **April 5, 2025**.",
+      "generated_answer": "The contract with Metropolitan Life Group was signed on behalf of the client by **Richard Thompson**, who holds the title of **Chairman & Chief Executive Officer** of Metropolitan Life Group, Inc. The signing took place on **April 5, 2025**.",
       "reference_answer": "Richard Thompson, Chairman & Chief Executive Officer, signed the contract on behalf of Metropolitan Life Group.",
       "retrieval": {
         "mrr": 1.0,
@@ -1303,7 +1303,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.4285714285714284,
+        "relevance": 1.527777777777778,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1315,7 +1315,7 @@
         "Advanced",
         "FastTrack"
       ],
-      "generated_answer": "FastTrack Insurance Services subscribed to the **Advanced Tier** of the Claimllm platform. This tier supports up to **25,000 claims annually** and includes comprehensive features such as API integration, mobile access for adjusters, priority support, and an extensive training program. The monthly cost for this tier is **$9,500** over an **18-month contract**.",
+      "generated_answer": "FastTrack Insurance Services subscribed to the **Advanced Tier** of the Claimllm platform. This tier supports up to **25,000 claims annually** and includes features such as API integration with their existing claims systems (Guidewire, Duck Creek), a full-featured mobile app for adjusters, and priority customer support. The contract is for an **18-month duration** with monthly payments of **$9,500**, totaling **$171,000**.",
       "reference_answer": "FastTrack Insurance Services subscribed to the Advanced Tier of Claimllm.",
       "retrieval": {
         "mrr": 1.0,
@@ -1326,7 +1326,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.888888888888889,
+        "relevance": 0.7547169811320754,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1338,7 +1338,7 @@
         "$9,500",
         "FastTrack"
       ],
-      "generated_answer": "The monthly payment for FastTrack Insurance Services' Claimllm contract is **$9,500**. This is part of an 18-month contract totaling **$171,000**, with payments due on the 1st of each month.",
+      "generated_answer": "The monthly payment for FastTrack Insurance Services' Claimllm contract is $9,500.",
       "reference_answer": "FastTrack Insurance Services pays $9,500 per month for Claimllm Advanced Tier.",
       "retrieval": {
         "mrr": 1.0,
@@ -1348,9 +1348,9 @@
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 0.625,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "completeness": 5.0,
+        "relevance": 1.1111111111111112,
+        "feedback": "Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -1361,7 +1361,7 @@
         "18 months",
         "FastTrack"
       ],
-      "generated_answer": "The contract between Insurellm and FastTrack Insurance Services has a duration of **18 months**, starting from May 10, 2025. After the initial term, it automatically renews for successive 12-month terms unless either party provides written notice of non-renewal at least 45 days prior to expiration.",
+      "generated_answer": "The contract between Insurellm and FastTrack Insurance Services has a duration of **18 months**, starting from May 10, 2025.",
       "reference_answer": "The FastTrack Insurance Services contract has a duration of 18 months.",
       "retrieval": {
         "mrr": 1.0,
@@ -1372,7 +1372,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.0,
+        "relevance": 2.142857142857143,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1407,18 +1407,18 @@
         "Professional",
         "Atlantic"
       ],
-      "generated_answer": "Atlantic Risk Solutions subscribed to the **Professional Tier** for Bizllm. This tier includes access to advanced features such as the Multi-Line Underwriting Engine, Business Intelligence Integration, Cyber Risk Assessment, Workers' Compensation Optimization, Commercial Property Evaluation, Professional Liability Specialization, and Portfolio Management Dashboard.",
+      "generated_answer": "Atlantic Risk Solutions subscribed to the **Professional Tier** of Bizllm. This tier includes advanced features such as a multi-line underwriting engine, business intelligence integration, cyber risk assessment, workers' compensation optimization, and more.",
       "reference_answer": "Atlantic Risk Solutions subscribed to the Professional Tier of Bizllm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 2.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.125,
+        "relevance": 1.40625,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1430,18 +1430,18 @@
         "$12,000",
         "Atlantic"
       ],
-      "generated_answer": "The monthly cost for Atlantic Risk Solutions' Bizllm subscription is $12,000. This is for the Professional Tier, which includes advanced features such as cyber risk tools, advanced analytics, and expanded integration capabilities.",
+      "generated_answer": "The monthly cost for Atlantic Risk Solutions' Bizllm subscription is $12,000. They are subscribed to the Professional Tier.",
       "reference_answer": "Atlantic Risk Solutions pays $12,000 per month for Bizllm Professional Tier.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.7575757575757576,
+        "relevance": 1.3636363636363635,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1453,7 +1453,7 @@
         "35",
         "Atlantic"
       ],
-      "generated_answer": "The contract with Atlantic Risk Solutions includes **35 named user licenses**.",
+      "generated_answer": "Atlantic Risk Solutions' contract with Insurellm includes **35 named user licenses** for the Bizllm Professional Tier. Additional users can be added at a cost of **$180 per month per license**.",
       "reference_answer": "Atlantic Risk Solutions' contract includes 35 named user licenses.",
       "retrieval": {
         "mrr": 1.0,
@@ -1463,9 +1463,9 @@
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 2.142857142857143,
-        "feedback": "Answer diverges from reference - may have hallucinations"
+        "completeness": 3.0,
+        "relevance": 1.129032258064516,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -1476,19 +1476,19 @@
         "Michael Torres",
         "Atlantic"
       ],
-      "generated_answer": "Michael Torres, the Chief Revenue Officer of Insurellm, Inc., signed the contract with Atlantic Risk Solutions on January 15, 2025.",
+      "generated_answer": "Michael Torres, the Chief Revenue Officer of Insurellm, Inc., signed the Atlantic Risk Solutions contract on behalf of Insurellm.",
       "reference_answer": "Michael Torres, Chief Revenue Officer, signed the Atlantic Risk Solutions contract on behalf of Insurellm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 2.727272727272727,
-        "feedback": "Answer too long - could be more concise"
+        "completeness": 5.0,
+        "relevance": 3.888888888888889,
+        "feedback": "Good answer!"
       }
     },
     {
@@ -1499,18 +1499,18 @@
         "$199",
         "Belvedere"
       ],
-      "generated_answer": "The monthly fee for Belvedere Insurance's featured listing on Markellm is **$199/month**. This is part of the **Basic Listing Fee** as outlined in their contract with Insurellm. Additionally, they have the option for **performance-based pricing**, where they pay **$25 per lead** generated through the platform.",
+      "generated_answer": "The monthly fee for Belvedere Insurance's Markellm listing is $199. This is the Basic Listing Fee for a featured listing on the platform.",
       "reference_answer": "Belvedere Insurance pays a Basic Listing Fee of $199 per month for accessing the Markellm platform.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.0,
+        "relevance": 1.9565217391304348,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1526,7 +1526,7 @@
       "reference_answer": "Maxine Thompson joined Insurellm in January 2017 as a Junior Data Engineer.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
@@ -1546,18 +1546,18 @@
         "James",
         "Wilson"
       ],
-      "generated_answer": "I don't have any information about James Wilson joining Insurellm in the provided context. Could you please provide more details or clarify your question?",
+      "generated_answer": "I don't have any information about James Wilson in the provided context. Therefore, I can't confirm when or if he joined Insurellm. If you have any other questions or need further assistance, feel free to ask!",
       "reference_answer": "James Wilson joined Insurellm as Chief Technology Officer in January 2017.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.27272727272727276,
-        "keyword_coverage": 33.33333333333333,
-        "keywords_found": 1
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
         "accuracy": 3.333333333333333,
         "completeness": 3.0,
-        "relevance": 0.6451612903225806,
+        "relevance": 0.5263157894736842,
         "feedback": "Missing keywords: January 2017 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1592,19 +1592,19 @@
         "2022-2023",
         "restructuring"
       ],
-      "generated_answer": "Insurellm underwent strategic restructuring between 2022 and 2023.",
+      "generated_answer": "The provided context does not specify when Insurellm underwent strategic restructuring. If you have any other questions or need further information, feel free to ask!",
       "reference_answer": "Insurellm underwent strategic restructuring in 2022-2023 to focus on profitability and sustainable growth.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 1.5625,
-        "feedback": "Missing keywords: 2022-2023 | Answer too short - lacks detail | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.5882352941176471,
+        "feedback": "Missing keywords: 2022-2023 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -1615,19 +1615,19 @@
         "Q2 2025",
         "telematics"
       ],
-      "generated_answer": "The telematics-based pricing feature is part of the **Insurellm 2025-2026 Roadmap**, but the exact launch date isn't specified in the provided context. For the most accurate and up-to-date information, I recommend reaching out to Insurellm\u2019s customer support team or checking their official roadmap updates.\n\nWould you like help finding contact details for their support team?",
+      "generated_answer": "Carllm's telematics-based pricing feature is scheduled to launch in Q2 2025. This feature aims to provide more tailored coverage options for users.",
       "reference_answer": "Carllm's telematics-based pricing is scheduled to launch in Q2 2025.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.3333333333333333,
-        "keyword_coverage": 50.0,
-        "keywords_found": 1
+        "mrr": 1.0,
+        "ndcg": 0.6666666666666666,
+        "keyword_coverage": 100.0,
+        "keywords_found": 2
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.576923076923077,
-        "feedback": "Missing keywords: Q2 2025 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 2.5,
+        "feedback": "Answer too long - could be more concise"
       }
     },
     {
@@ -1638,7 +1638,7 @@
         "Q1 2025",
         "Homellm"
       ],
-      "generated_answer": "Homellm version 2.0 is scheduled for release in **Q1 2025**. This update will include expanded predictive maintenance alerts and automated underwriting processes.",
+      "generated_answer": "Homellm version 2.0 is scheduled for release in **Q1 2025**. This version will include expanded predictive maintenance alerts and automated underwriting processes.",
       "reference_answer": "Homellm version 2.0 is scheduled for release in Q1 2025.",
       "retrieval": {
         "mrr": 1.0,
@@ -1649,7 +1649,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.6666666666666665,
+        "relevance": 1.7391304347826086,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1661,7 +1661,7 @@
         "Q2 2025",
         "Bizllm"
       ],
-      "generated_answer": "I don't have information about the scheduled launch date for Bizllm version 1.0. If you have any other questions about Insurellm or Bizllm, feel free to ask!",
+      "generated_answer": "I don't have information about the launch schedule for Bizllm version 1.0. The context provided doesn't mention any details about product versions or release dates. If you need this information, I'd recommend reaching out to Insurellm's support team directly\u2014they'd be best equipped to assist with this query!",
       "reference_answer": "Bizllm version 1.0 is scheduled to launch in Q2 2025 with core multi-line underwriting, quoting, and policy administration.",
       "retrieval": {
         "mrr": 1.0,
@@ -1672,7 +1672,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.6578947368421052,
+        "relevance": 0.44642857142857145,
         "feedback": "Missing keywords: Q2 2025 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1684,18 +1684,18 @@
         "Q1 2025",
         "Claimllm"
       ],
-      "generated_answer": "I don't have information about the launch schedule for Claimllm version 1.0. The context provided doesn't mention any specific details about product versions or release dates. Is there anything else you'd like to know about Insurellm or Claimllm?",
+      "generated_answer": "I don't have information about the specific launch date for Claimllm version 1.0. However, I can tell you about the exciting features and benefits of Claimllm, which represents the future of insurance claims\u2014faster, smarter, and more customer-centric. If you have any other questions or need details about the support and implementation process, feel free to ask!",
       "reference_answer": "Claimllm version 1.0 is scheduled to launch in Q1 2025 with core claims processing automation, FNOL capture, and basic fraud detection.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 0.6666666666666666,
         "keyword_coverage": 50.0,
         "keywords_found": 1
       },
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.5,
+        "relevance": 0.40983606557377045,
         "feedback": "Missing keywords: Q1 2025 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1707,18 +1707,18 @@
         "Q2 2025",
         "Lifellm"
       ],
-      "generated_answer": "Lifellm version 1.0 is scheduled to launch in **Q2 2025**. This version will include core AI underwriting and policy management capabilities.",
+      "generated_answer": "Lifellm version 1.0 is scheduled to launch in **Q2 2025**. This initial release will include core AI underwriting and policy management capabilities.",
       "reference_answer": "Lifellm version 1.0 is scheduled to launch in Q2 2025 with core AI underwriting and policy management capabilities.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 3.2608695652173916,
+        "relevance": 3.0,
         "feedback": "Good answer!"
       }
     },
@@ -1730,7 +1730,7 @@
         "Q1 2025",
         "Healthllm"
       ],
-      "generated_answer": "I don't have the specific launch date for Healthllm version 1.0 in the provided context. However, I can tell you that Insurellm is committed to continuous improvement with monthly platform enhancements and bi-weekly security patches. For the exact launch date of version 1.0, I would recommend reaching out to the Insurellm team directly or checking their official communications.",
+      "generated_answer": "I don't have information about the launch date for Healthllm version 1.0. The context provided doesn't mention it. If you have any other questions about Insurellm or Healthllm, feel free to ask!",
       "reference_answer": "Healthllm version 1.0 is scheduled to launch in Q1 2025 featuring core claims processing, eligibility verification, and member portal.",
       "retrieval": {
         "mrr": 1.0,
@@ -1741,7 +1741,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.6896551724137931,
+        "relevance": 0.4545454545454546,
         "feedback": "Missing keywords: Q1 2025 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1753,19 +1753,19 @@
         "March 20, 2025",
         "DriveSmart"
       ],
-      "generated_answer": "The DriveSmart Insurance contract for Carllm was signed on **March 20, 2025**.",
+      "generated_answer": "The contract between Insurellm and DriveSmart Insurance for the Carllm platform was signed on **March 20, 2025**.",
       "reference_answer": "The DriveSmart Insurance contract for Carllm was signed on March 20, 2025.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.5714285714285716,
-        "feedback": "Good answer!"
+        "completeness": 3.0,
+        "relevance": 2.7777777777777777,
+        "feedback": "Answer too long - could be more concise"
       }
     },
     {
@@ -1776,7 +1776,7 @@
         "January 25, 2025",
         "Harmony"
       ],
-      "generated_answer": "The contract between Harmony Health Plans and Healthllm became effective on **January 25, 2025**.",
+      "generated_answer": "The contract with Harmony Health Plans for Healthllm was effective as of **January 25, 2025**.",
       "reference_answer": "The Harmony Health Plans Healthllm contract became effective on January 25, 2025.",
       "retrieval": {
         "mrr": 1.0,
@@ -1787,8 +1787,8 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 3.125,
-        "feedback": "Good answer!"
+        "relevance": 2.1052631578947367,
+        "feedback": "Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -1799,19 +1799,19 @@
         "April 5, 2025",
         "Metropolitan"
       ],
-      "generated_answer": "The contract between Insurellm and Metropolitan Life Group for the Lifellm platform was signed on **February 12, 2025**.",
+      "generated_answer": "The contract between Insurellm and Metropolitan Life Group for Lifellm was signed on **April 5, 2025**.",
       "reference_answer": "The Metropolitan Life Group Lifellm contract was signed on April 5, 2025.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6666666666666667,
+        "ndcg": 2.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 2.25,
-        "feedback": "Missing keywords: April 5, 2025 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 2.7777777777777777,
+        "feedback": "Answer too long - could be more concise"
       }
     },
     {
@@ -1822,7 +1822,7 @@
         "May 10, 2025",
         "FastTrack"
       ],
-      "generated_answer": "The contract with FastTrack Insurance Services for Claimllm was signed on May 10, 2025.",
+      "generated_answer": "The contract between Insurellm and FastTrack Insurance Services for Claimllm was signed on **May 10, 2025**.",
       "reference_answer": "The FastTrack Insurance Services Claimllm contract was signed on May 10, 2025.",
       "retrieval": {
         "mrr": 1.0,
@@ -1832,9 +1832,9 @@
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 4.285714285714286,
-        "feedback": "Good answer!"
+        "completeness": 3.0,
+        "relevance": 2.7777777777777777,
+        "feedback": "Answer too long - could be more concise"
       }
     },
     {
@@ -1845,19 +1845,19 @@
         "January 15, 2025",
         "Atlantic"
       ],
-      "generated_answer": "The contract between Insurellm and Atlantic Risk Solutions for Bizllm was effective as of **January 15, 2025**.",
+      "generated_answer": "The contract with Atlantic Risk Solutions for Bizllm was effective as of **January 15, 2025**.",
       "reference_answer": "The Atlantic Risk Solutions Bizllm contract became effective on January 15, 2025.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 2.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 1.9047619047619047,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "completeness": 5.0,
+        "relevance": 2.1052631578947367,
+        "feedback": "Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -1872,8 +1872,8 @@
       "generated_answer": "Priya Sharma's recommendation engine increased conversion by **28%** for Marketllm.",
       "reference_answer": "Priya Sharma built a recommendation engine for Marketllm that increased conversion by 28%.",
       "retrieval": {
-        "mrr": 0.25,
-        "ndcg": 0.0,
+        "mrr": 0.5,
+        "ndcg": 0.8181818181818182,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -1916,7 +1916,7 @@
         "35%",
         "Sarah"
       ],
-      "generated_answer": "I don't have information about Sarah Williams or her impact on user satisfaction scores in the provided context. If you have more details or another question, feel free to ask!",
+      "generated_answer": "I don't have information about Sarah Williams or her impact on user satisfaction scores. If you have any other questions about Insurellm or the employees mentioned in the context, feel free to ask!",
       "reference_answer": "Sarah Williams conducted comprehensive user research that resulted in a 35% improvement in user satisfaction scores.",
       "retrieval": {
         "mrr": 0.0,
@@ -1927,7 +1927,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.6756756756756757,
+        "relevance": 0.8108108108108109,
         "feedback": "Missing keywords: 35% | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1963,18 +1963,18 @@
         "Emily",
         "Carter"
       ],
-      "generated_answer": "The provided context does not specify by what percentage Emily Carter exceeded her annual sales target in 2022. It only mentions that she received a bonus of $5,000 for achieving marketing milestones that year.\n\nIf you're referring to **Alex Thomson**, the context states that in 2022, Alex achieved **150% of the sales target** within the first three months. However, this is for Alex, not Emily Carter.\n\nIf you'd like, I can check for additional details or clarify further! Let me know.",
+      "generated_answer": "I don't have the specific information about the percentage by which Emily Carter exceeded her annual sales target in 2022. The context provided mentions that she received a bonus for achieving marketing milestones but does not specify the exact percentage by which she exceeded her targets.",
       "reference_answer": "Emily Carter exceeded her annual sales target by 30% in 2022.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.272727272727273,
-        "keyword_coverage": 100.0,
-        "keywords_found": 3
+        "ndcg": 1.5454545454545456,
+        "keyword_coverage": 66.66666666666666,
+        "keywords_found": 2
       },
       "answer": {
         "accuracy": 3.333333333333333,
         "completeness": 3.0,
-        "relevance": 0.7352941176470589,
+        "relevance": 1.3157894736842104,
         "feedback": "Missing keywords: 30% | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -1986,18 +1986,18 @@
         "$25",
         "Belvedere"
       ],
-      "generated_answer": "The performance-based pricing for Belvedere Insurance's contract with Markellm is **$25 per lead generated** through the platform. This is in addition to the **Basic Listing Fee** of **$199/month** for a featured listing on Markellm.",
+      "generated_answer": "The performance-based pricing for Belvedere Insurance's Markellm contract is **$25 per lead generated**. This is in addition to the **Basic Listing Fee of $199/month** for accessing the platform.",
       "reference_answer": "Belvedere Insurance pays $25 per lead generated through Markellm on a performance-based pricing model.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.3235294117647058,
+        "relevance": 0.9375,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2009,7 +2009,7 @@
         "$10,000",
         "Stellar"
       ],
-      "generated_answer": "The monthly subscription fee for Stellar Insurance Co.'s **Professional Plan** of the Rellm product is **$10,000**, due on the **1st of each month**.",
+      "generated_answer": "The monthly cost for Stellar Insurance Co.'s Rellm subscription is **$10,000** under the **Professional Plan**. This plan includes all features, advanced integrations, and priority customer support.",
       "reference_answer": "Stellar Insurance Co. pays $10,000 per month for the Professional Plan of Rellm.",
       "retrieval": {
         "mrr": 1.0,
@@ -2020,7 +2020,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.8928571428571429,
+        "relevance": 0.7575757575757576,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2033,7 +2033,7 @@
         "Customer Obsession",
         "Collaborative Excellence"
       ],
-      "generated_answer": "Based on the provided context, Insurellm's core values include:\n\n1. **Workers' Compensation Optimization:** Integrated tools analyzing payroll data, industry classifications, and claims history for accurate pricing.\n\n2. **Portfolio Management Dashboard:** Analytics providing line-of-business performance, loss ratios, and renewal rates insights.\n\n3. **Agent and Broker Portal:** Dedicated portals enabling distribution partners to quote, bind, and service policies efficiently.\n\nThe context only lists three core values explicitly. If there are more, they weren't included in the provided information.",
+      "generated_answer": "I'm sorry, but the provided context does not include information about Insurellm's four core values. If you have any other questions or need further assistance, feel free to ask!",
       "reference_answer": "Insurellm's four core values are Innovation First, Customer Obsession, Integrity & Transparency, and Collaborative Excellence.",
       "retrieval": {
         "mrr": 0.0,
@@ -2044,7 +2044,7 @@
       "answer": {
         "accuracy": 0.0,
         "completeness": 3.0,
-        "relevance": 0.3205128205128205,
+        "relevance": 0.36585365853658536,
         "feedback": "Missing keywords: Innovation First, Customer Obsession, Collaborative Excellence | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2061,7 +2061,7 @@
       "reference_answer": "Alex Harper was awarded SDR of the Year in 2022 for outstanding contributions.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.181818181818182,
+        "ndcg": 1.6363636363636365,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -2103,7 +2103,7 @@
         "22,000",
         "FastTrack"
       ],
-      "generated_answer": "FastTrack Insurance Services projects **22,000 claims** in year 1.",
+      "generated_answer": "FastTrack Insurance Services projects **22,000 claims** in year 1 of their contract with Insurellm.",
       "reference_answer": "FastTrack Insurance Services projects 22,000 claims in year 1.",
       "retrieval": {
         "mrr": 1.0,
@@ -2113,9 +2113,9 @@
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.1818181818181817,
-        "feedback": "Good answer!"
+        "completeness": 3.0,
+        "relevance": 1.7647058823529413,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2149,7 +2149,7 @@
         "78%",
         "Jennifer"
       ],
-      "generated_answer": "I don't have the information about Jennifer Adams' quota achievement for 2023. Could you provide more context or details?",
+      "generated_answer": "I don't have the specific information about Jennifer Adams' quota achievement percentage for 2023. If you have any other questions or need further assistance, feel free to ask!",
       "reference_answer": "Jennifer Adams achieved 78% of her lead generation quota in 2023.",
       "retrieval": {
         "mrr": 0.0,
@@ -2160,7 +2160,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.5555555555555556,
+        "relevance": 0.4285714285714286,
         "feedback": "Missing keywords: 78% | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2172,7 +2172,7 @@
         "8",
         "products"
       ],
-      "generated_answer": "Insurellm offers **8 insurance software products** across multiple insurance lines. Here's the full list:\n\n1. **Carllm** \u2013 Auto insurance platform\n2. **Homellm** \u2013 Home insurance platform\n3. **Lifellm** \u2013 Life insurance platform with AI underwriting\n4. **Healthllm** \u2013 Health insurance platform\n5. **Bizllm** \u2013 Commercial insurance platform\n6. **Claimllm** \u2013 Claims processing platform\n7. **Markellm** \u2013 Marketplace connecting consumers with insurers (original product)\n8. **Rellm** \u2013 Enterprise reinsurance platform\n\nWould you like details on any specific product?",
+      "generated_answer": "Insurellm offers **8 insurance software products** across multiple insurance lines. Here's the full list:\n\n### **Core Insurance Portals**\n1. **Carllm** \u2013 Auto insurance platform for insurers\n2. **Homellm** \u2013 Home insurance platform for insurers\n3. **Lifellm** \u2013 Life insurance platform with AI-powered underwriting\n4. **Healthllm** \u2013 Comprehensive health insurance platform\n5. **Bizllm** \u2013 Commercial insurance platform for business coverage\n6. **Claimllm** \u2013 Claims processing platform\n7. **Markellm** \u2013 Marketplace connecting consumers with insurance providers\n8. **Rellm** \u2013 Enterprise reinsurance platform\n\nWould you like more details on any of these products?",
       "reference_answer": "Insurellm offers 8 insurance software products across multiple insurance lines.",
       "retrieval": {
         "mrr": 1.0,
@@ -2183,7 +2183,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.5932203389830508,
+        "relevance": 0.5223880597014925,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2196,11 +2196,11 @@
         "Professional",
         "Carllm"
       ],
-      "generated_answer": "The monthly cost of Carllm's Professional Tier is **$2,500/month**.\n\nThis tier is designed for medium-sized insurance companies and includes all the features of the Basic Tier, plus advanced analytics and fraud detection.",
+      "generated_answer": "The monthly cost of Carllm's Professional Tier is **$2,500**. This tier is designed for medium-sized insurance companies and includes all the features of the Basic Tier, plus advanced analytics and fraud detection.",
       "reference_answer": "Carllm's Professional Tier costs $2,500 per month.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.9090909090909092,
+        "ndcg": 1.8181818181818183,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -2219,18 +2219,18 @@
         "Core Insurance Portals",
         "Carllm"
       ],
-      "generated_answer": "Insurellm offers five core insurance portals, each tailored to specific insurance lines:\n\n1. **Carllm** \u2013 Auto insurance platform for insurers.\n2. **Homellm** \u2013 Home insurance platform for insurers.\n3. **Lifellm** \u2013 Life insurance platform with AI-powered underwriting.\n4. **Healthllm** \u2013 Comprehensive health insurance platform.\n5. **Bizllm** \u2013 Commercial insurance platform for business coverage.\n\nThese portals are designed to streamline operations, enhance customer experience, and integrate seamlessly with existing systems.",
+      "generated_answer": "Insurellm offers five core insurance portals, each tailored to specific insurance lines:\n\n1. **Carllm** \u2013 An auto insurance platform designed for insurers.\n2. **Homellm** \u2013 A home insurance platform for insurers.\n3. **Lifellm** \u2013 A life insurance platform featuring AI-powered underwriting.\n4. **Healthllm** \u2013 A comprehensive health insurance platform.\n5. **Bizllm** \u2013 A commercial insurance platform for business coverage.\n\nThese portals help insurers streamline operations, enhance customer experience, and leverage advanced technologies like AI for underwriting and risk assessment.",
       "reference_answer": "Insurellm's core insurance portals are Carllm (auto), Homellm (home), Lifellm (life), Healthllm (health), and Bizllm (commercial).",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.6666666666666666,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.4032258064516129,
+        "relevance": 0.2857142857142857,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2242,19 +2242,19 @@
         "Marketplace & Infrastructure",
         "Markellm"
       ],
-      "generated_answer": "Based on the provided context, Insurellm offers a range of insurance software products, but the specific \"marketplace\" and \"infrastructure\" products are not explicitly detailed. However, here\u2019s what we know about their product suite:\n\n### **Marketplace Product (Implied)**\n- **Markellm**: While not explicitly listed in the initial product overview, the context mentions a contract with **ConnectInsure Agency** to use **Markellm\u2019s AI-powered marketplace** for lead generation. This suggests that **Markellm** is Insurellm\u2019s marketplace product, designed to connect insurers with qualified shoppers through data-driven lead generation.\n\n### **Infrastructure Products (Core Portals & Support Systems)**\nInsurellm\u2019s core products appear to serve as infrastructure for insurers, including:\n1. **Carllm** \u2013 Auto insurance platform\n2. **Homellm** \u2013 Home insurance platform\n3. **Lifellm** \u2013 Life insurance platform with AI underwriting\n4. **Healthllm** \u2013 Health insurance platform\n5. **Bizllm** \u2013 Commercial insurance platform\n6. **Claimllm** \u2013 Claims processing platform (mentioned in the expansion)\n\nAdditionally, the context highlights **multi-channel integration** and a **customer portal** for policy/claims management, which could be considered part of their infrastructure offerings.\n\n### **Support & Updates**\nInsurellm also provides:\n- **24/7 dedicated support**\n- **Regular platform updates** (security, features, mobile apps)\n- **Marketing assistance** (quarterly strategy consultations, trend reports)\n\nIf you're looking for more details on a specific product (e.g., Markellm\u2019s marketplace features or backend infrastructure), I\u2019d be happy to help clarify further! Let me know.",
+      "generated_answer": "Based on the provided context, Insurellm offers a range of insurance software products, but the context does not explicitly mention specific \"marketplace\" or \"infrastructure\" products. However, here\u2019s what we know about their product suite:\n\n### **Core Insurance Portals (8 Products)**\n1. **Carllm** \u2013 Auto insurance platform for insurers\n2. **Homellm** \u2013 Home insurance platform for insurers\n3. **Lifellm** \u2013 Life insurance platform with AI-powered underwriting\n4. **Healthllm** \u2013 Comprehensive health insurance platform\n5. **Bizllm** \u2013 Commercial insurance platform for business coverage\n6. **Claimllm** \u2013 Claims processing platform (mentioned in the context)\n7. *(Two additional products are implied but not named in the context.)*\n\n### **Possible Marketplace & Infrastructure Products**\nWhile not explicitly listed, Insurellm may offer:\n- **Marketplace Solutions** \u2013 If they facilitate connections between insurers, brokers, and customers (e.g., a digital insurance marketplace).\n- **Infrastructure Products** \u2013 Backend tools like API integrations, data analytics, or cloud-based insurance infrastructure.\n\nSince the context does not provide full details on all eight products, I recommend checking Insurellm\u2019s official website or documentation for a complete list. Would you like help finding more details?",
       "reference_answer": "Insurellm's marketplace and infrastructure products are Markellm (marketplace), Claimllm (claims processing), and Rellm (reinsurance).",
       "retrieval": {
-        "mrr": 0.3333333333333333,
+        "mrr": 0.0,
         "ndcg": 0.0,
-        "keyword_coverage": 50.0,
-        "keywords_found": 1
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.14792899408284022,
-        "feedback": "Missing keywords: Marketplace & Infrastructure | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.1773049645390071,
+        "feedback": "Missing keywords: Markellm | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2265,7 +2265,7 @@
         "Rellm",
         "Jessica"
       ],
-      "generated_answer": "I don't have information about Jessica Liu or the specific product she develops for. Could you provide more context or clarify your question?",
+      "generated_answer": "Jessica Liu is a Product Manager at Insurellm, but the specific product she develops for is not mentioned in the provided context.",
       "reference_answer": "Jessica Liu develops user interfaces for the Rellm reinsurance platform using React.",
       "retrieval": {
         "mrr": 1.0,
@@ -2274,10 +2274,10 @@
         "keywords_found": 1
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.6666666666666666,
-        "feedback": "Missing keywords: Rellm | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.9615384615384616,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2311,7 +2311,7 @@
         "Carllm",
         "Tyler"
       ],
-      "generated_answer": "Tyler Brooks works on the **Carllm auto insurance portal**, specifically developing backend services for it.",
+      "generated_answer": "Tyler Brooks works on the **Carllm auto insurance portal** as a Junior Backend Developer at Insurellm.",
       "reference_answer": "Tyler Brooks develops backend services for the Carllm auto insurance portal.",
       "retrieval": {
         "mrr": 1.0,
@@ -2322,7 +2322,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 2.2222222222222223,
+        "relevance": 1.4285714285714284,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2336,19 +2336,19 @@
         "Senior Data Engineer",
         "IIOTY"
       ],
-      "generated_answer": "The IIOTY (Insurellm Innovator of the Year) award winner, Maxine, is involved in various initiatives at Insurellm, but the specific product she works on isn't mentioned in the provided context.\n\nHowever, based on her achievements, she led the **\"Tech the Halls\" campaign**, which significantly increased leads during the holiday season. She has also contributed to **email marketing strategies, customer referral programs, and rebranding initiatives**.\n\nIf you'd like more details about her current projects or the products she\u2019s associated with, I\u2019d be happy to help dig deeper! Let me know.",
+      "generated_answer": "The product that the IIOTY (Innovator of the Year) award winner works on is **Markellm**.\n\nMarkellm is an innovative two-sided marketplace that connects consumers with insurance companies using advanced AI-powered matching. It simplifies the insurance shopping experience by providing personalized and efficient solutions for both individuals and insurers.\n\nWould you like more details about Markellm or the award winner's contributions?",
       "reference_answer": "Maxine Thompson, who won the IIOTY award in 2023, works as a Senior Data Engineer.",
       "retrieval": {
-        "mrr": 1.0,
-        "ndcg": 0.9600000000000002,
-        "keyword_coverage": 50.0,
-        "keywords_found": 2
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 1.25,
         "completeness": 3.0,
-        "relevance": 0.29069767441860467,
-        "feedback": "Missing keywords: Thompson, Senior Data Engineer | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.3278688524590164,
+        "feedback": "Missing keywords: Maxine, Thompson, Senior Data Engineer | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2364,8 +2364,8 @@
       "generated_answer": "I'm sorry, but I don't have the specific information about the technical lead for the product that costs $10,000/month for the Standard Tier. If you have any other questions or need further assistance, feel free to ask!",
       "reference_answer": "Robert Chen is the technical lead for Homellm, which costs $10,000/month for the Standard Tier.",
       "retrieval": {
-        "mrr": 0.25,
-        "ndcg": 0.24000000000000005,
+        "mrr": 0.5,
+        "ndcg": 0.5454545454545455,
         "keyword_coverage": 50.0,
         "keywords_found": 2
       },
@@ -2386,19 +2386,19 @@
         "$285,000",
         "January 2017"
       ],
-      "generated_answer": "The Chief Technology Officer (CTO), James Wilson, who joined Insurellm in January 2017, has a current base salary of **$285,000** (as of 2023). His compensation also includes bonuses and equity refreshes. For example, in 2023, his total compensation was:\n- **Base Salary:** $285,000\n- **Bonus:** $125,000\n- **Equity refresh** (details not specified in the context).",
+      "generated_answer": "The CTO who joined in January 2017 had the following compensation history:\n\n- **2017:** Base Salary: $195,000 + Bonus: $70,000 + Significant equity grant",
       "reference_answer": "James Wilson, who joined as CTO in January 2017, has a current salary of $285,000.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.12,
-        "keyword_coverage": 100.0,
-        "keywords_found": 4
+        "ndcg": 0.5454545454545455,
+        "keyword_coverage": 25.0,
+        "keywords_found": 1
       },
       "answer": {
-        "accuracy": 5.0,
+        "accuracy": 1.25,
         "completeness": 3.0,
-        "relevance": 1.2,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.78125,
+        "feedback": "Missing keywords: James, Wilson, $285,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2411,18 +2411,18 @@
         "$225,000",
         "founder"
       ],
-      "generated_answer": "I don't have information about the current salary of Avery Lancaster, the founder of Insurellm. The provided context does not include details about the founder's compensation.",
+      "generated_answer": "I don't have information about the current salary of Avery Lancaster, the founder of Insurellm. The context provided does not include details about the founder's compensation. If you have any other questions about Insurellm, feel free to ask!",
       "reference_answer": "Avery Lancaster, the founder of Insurellm, has a current salary of $225,000.",
       "retrieval": {
         "mrr": 0.3333333333333333,
-        "ndcg": 0.32,
+        "ndcg": 0.36363636363636365,
         "keyword_coverage": 50.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 3.75,
         "completeness": 3.0,
-        "relevance": 1.4000000000000001,
+        "relevance": 1.1764705882352942,
         "feedback": "Missing keywords: $225,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2436,19 +2436,19 @@
         "Marketllm",
         "28%"
       ],
-      "generated_answer": "I'm sorry, but the provided context does not contain information about a Senior Data Scientist building a recommendation engine that increased conversion by 28%. If you have any other questions or need further assistance, feel free to ask!",
+      "generated_answer": "The Senior Data Scientist, Priya Sharma, built a recommendation engine for **Marketllm**, which resulted in a **28% increase in conversion**.",
       "reference_answer": "Priya Sharma built a recommendation engine for Marketllm that increased conversion by 28%.",
       "retrieval": {
-        "mrr": 0.0,
-        "ndcg": 0.0,
-        "keyword_coverage": 0.0,
-        "keywords_found": 0
+        "mrr": 0.5,
+        "ndcg": 1.090909090909091,
+        "keyword_coverage": 100.0,
+        "keywords_found": 4
       },
       "answer": {
-        "accuracy": 1.25,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.9523809523809523,
-        "feedback": "Missing keywords: Priya, Sharma, Marketllm | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 1.2,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2461,18 +2461,18 @@
         "Homellm",
         "35%"
       ],
-      "generated_answer": "The UX Designer who improved user satisfaction by 35% leads the design for the **Homellm home insurance portal**. This achievement was made by Sarah Williams during her time as a UX Designer at Insurellm.",
+      "generated_answer": "The UX Designer who improved user satisfaction by 35% is **Sarah Williams**, and she leads the design for the **Homellm home insurance portal**.",
       "reference_answer": "Sarah Williams, who improved user satisfaction by 35%, leads design for Homellm.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.8800000000000001,
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.7272727272727273,
         "keyword_coverage": 100.0,
         "keywords_found": 4
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.40625,
+        "relevance": 1.6,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2486,19 +2486,19 @@
         "$2M",
         "Austin"
       ],
-      "generated_answer": "The Marketing Manager in Austin, Lisa Anderson, manages an annual marketing budget of **$2 million**. She leads demand generation and content marketing teams while overseeing digital campaigns, events, and brand initiatives. Under her leadership, qualified leads have increased by **65% since 2021**.\n\nWould you like more details on her role or performance?",
+      "generated_answer": "The Marketing Manager in Austin, Lisa Anderson, manages an annual marketing budget of $2M.",
       "reference_answer": "Lisa Anderson, the Marketing Manager in Austin, manages a $2M annual marketing budget.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0400000000000005,
+        "ndcg": 2.4545454545454546,
         "keyword_coverage": 100.0,
         "keywords_found": 4
       },
       "answer": {
-        "accuracy": 3.75,
-        "completeness": 3.0,
-        "relevance": 0.8999999999999999,
-        "feedback": "Missing keywords: $2M | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "accuracy": 5.0,
+        "completeness": 5.0,
+        "relevance": 2.8125,
+        "feedback": "Good answer!"
       }
     },
     {
@@ -2511,18 +2511,18 @@
         "DriveSmart",
         "$18,000"
       ],
-      "generated_answer": "The provided context does not specify which client pays $18,000 per month for Carllm, nor does it include the signature details for that particular contract. The only signature mentioned is for the contract with TechDrive Insurance, which was signed by **John Smith**, the Account Manager at Insurellm.\n\nIf you have additional details or another document referencing the $18,000/month contract, I\u2019d be happy to help further!",
+      "generated_answer": "The contract provided in the context is with **TechDrive Insurance** for the **Professional Tier** of Carllm at **$2,500/month**, not $18,000/month. Additionally, the contract does not specify who signed on behalf of Insurellm\u2014only **Sarah Johnson (Operations Director at TechDrive Insurance)** is listed as the representative for the customer.\n\nIf you're referring to a different contract (e.g., one with a $18,000/month tier), I don\u2019t have that information in the given context. Could you clarify or provide additional details? I\u2019d be happy to help!",
       "reference_answer": "Jennifer Rodriguez, CEO of Insurellm, signed the contract for DriveSmart Insurance which pays $18,000 per month for Carllm.",
       "retrieval": {
-        "mrr": 0.3333333333333333,
-        "ndcg": 0.16,
-        "keyword_coverage": 25.0,
-        "keywords_found": 1
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
         "accuracy": 1.25,
         "completeness": 3.0,
-        "relevance": 0.7258064516129032,
+        "relevance": 0.3289473684210526,
         "feedback": "Missing keywords: Jennifer, Rodriguez, DriveSmart | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2537,19 +2537,19 @@
         "Professional",
         "35"
       ],
-      "generated_answer": "The client with 35 user licenses subscribed to the **Professional Tier** of Bizllm. This tier costs $12,000 per month and is designed for multi-line carriers, offering features such as cyber risk tools, advanced analytics, and expanded integration capabilities.",
+      "generated_answer": "Based on the provided context, the client with 35 user licenses subscribed to the **Business Tier** of Bizllm, which costs **$6,000 per month**. This tier is designed for regional commercial insurers writing select lines of business and includes core underwriting and policy administration features.\n\nThe **Professional Tier** ($12,000/month) and **Enterprise Tier** (custom pricing) are intended for larger carriers with more extensive needs, such as multi-line support, advanced analytics, or dedicated environments. Since the context mentions a smaller-scale deployment (35 users), the **Business Tier** is the most likely fit.\n\nWould you like details on the specific features included in this tier?",
       "reference_answer": "Atlantic Risk Solutions, which has 35 named user licenses, subscribed to the Professional Tier of Bizllm.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 1.5200000000000002,
-        "keyword_coverage": 100.0,
-        "keywords_found": 5
+        "mrr": 1.0,
+        "ndcg": 1.090909090909091,
+        "keyword_coverage": 40.0,
+        "keywords_found": 2
       },
       "answer": {
-        "accuracy": 3.0,
+        "accuracy": 2.0,
         "completeness": 3.0,
-        "relevance": 1.0465116279069768,
-        "feedback": "Missing keywords: Atlantic, Solutions | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.449438202247191,
+        "feedback": "Missing keywords: Atlantic, Risk, Solutions | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2563,18 +2563,18 @@
         "38,000",
         "$15,000"
       ],
-      "generated_answer": "The client who subscribed to the **Healthllm Professional Tier** for **$15,000/month** is **Advantage Medical Coverage**, and they currently cover **32,000 members** across **2 states**.\n\nThe **Professional Tier** supports up to **50,000 covered members**, so they have room for growth within their current plan.\n\nWould you like details on any other aspects of their contract?",
+      "generated_answer": "The client, Advantage Medical Coverage, currently covers **32,000 members** across 2 states under the **Healthllm Professional Tier** subscription, which costs **$15,000/month**.\n\n*(Note: The Professional Tier supports up to 50,000 members, but Advantage is currently utilizing it for 32,000 members.)*",
       "reference_answer": "Harmony Health Plans, which subscribed to Healthllm Professional Tier for $15,000/month, has 38,000 covered members.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0400000000000005,
+        "ndcg": 1.6363636363636365,
         "keyword_coverage": 60.0,
         "keywords_found": 3
       },
       "answer": {
         "accuracy": 2.0,
         "completeness": 3.0,
-        "relevance": 0.43859649122807015,
+        "relevance": 0.5681818181818181,
         "feedback": "Missing keywords: Harmony, Plans, 38,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2589,18 +2589,18 @@
         "Thompson",
         "$1,098,000"
       ],
-      "generated_answer": "The contract between Insurellm and Metropolitan Life Group was signed by:\n\n- **Jennifer Rodriguez**, Chief Executive Officer of Insurellm, Inc.\n- **Richard Thompson**, Chairman & Chief Executive Officer of Metropolitan Life Group, Inc.\n\nThe total contract value is **$1,098,000** over the 36-month term.",
+      "generated_answer": "The contract with Metropolitan Life Group, totaling $1,098,000, was signed by:\n\n- **Jennifer Rodriguez**, Chief Executive Officer of **Insurellm, Inc.**\n- **Richard Thompson**, Chairman & Chief Executive Officer of **Metropolitan Life Group, Inc.**\n\nBoth parties signed the agreement on **April 5, 2025**.",
       "reference_answer": "Jennifer Rodriguez signed for Insurellm and Richard Thompson signed for Metropolitan Life Group on the contract totaling $1,098,000.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 1.08,
+        "mrr": 1.0,
+        "ndcg": 1.6363636363636365,
         "keyword_coverage": 100.0,
         "keywords_found": 5
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.0,
+        "relevance": 0.853658536585366,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2614,18 +2614,18 @@
         "12 months",
         "$12,000"
       ],
-      "generated_answer": "The total contract value for a client paying $12,000 per month for the **Bizllm Professional Tier** depends on the duration of the contract. However, the provided context does not specify a contract duration for this tier.\n\nIf we assume a standard **36-month contract** (similar to other agreements mentioned), the total value would be:\n**$12,000/month \u00d7 36 months = $432,000**\n\nWould you like me to adjust this based on a different contract length?",
+      "generated_answer": "The total contract value for a client paying $12,000 per month for the Bizllm Professional Tier would depend on the duration of the contract. However, based on the provided context, the contract with Summit Commercial Insurance is for 18 months. If we assume the same duration for the Professional Tier, the total contract value would be:\n\n$12,000/month * 18 months = $216,000",
       "reference_answer": "Atlantic Risk Solutions pays $12,000/month for 12 months, totaling $144,000 for Bizllm Professional Tier.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.36000000000000004,
+        "mrr": 1.0,
+        "ndcg": 0.8181818181818182,
         "keyword_coverage": 50.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 1.25,
         "completeness": 3.0,
-        "relevance": 0.23809523809523808,
+        "relevance": 0.39215686274509803,
         "feedback": "Missing keywords: Atlantic, $144,000, 12 months | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2642,8 +2642,8 @@
       "generated_answer": "The DevOps Engineer, David Kim, reduced deployment time by 60% through the implementation of CI/CD pipelines.",
       "reference_answer": "David Kim, the DevOps Engineer in New York, reduced deployment time by 60% with CI/CD pipelines.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.9600000000000002,
+        "mrr": 1.0,
+        "ndcg": 2.181818181818182,
         "keyword_coverage": 100.0,
         "keywords_found": 4
       },
@@ -2668,7 +2668,7 @@
       "reference_answer": "Marcus Johnson, the Customer Success Manager in New York, manages a portfolio generating $5M in annual revenue.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.9200000000000004,
+        "ndcg": 2.181818181818182,
         "keyword_coverage": 100.0,
         "keywords_found": 4
       },
@@ -2690,19 +2690,19 @@
         "Austin",
         "2022"
       ],
-      "generated_answer": "The Account Executive in Austin, Emily Carter, exceeded her annual sales target by 5% in 2022.",
+      "generated_answer": "The Account Executive in Austin, Emily Carter, exceeded her annual sales target by 30% in 2022.",
       "reference_answer": "Emily Carter, the Account Executive in Austin, exceeded her annual sales target by 30% in 2022.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.5600000000000003,
+        "ndcg": 3.3636363636363638,
         "keyword_coverage": 100.0,
         "keywords_found": 5
       },
       "answer": {
-        "accuracy": 4.0,
+        "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 4.375,
-        "feedback": "Missing keywords: 30%"
+        "relevance": 5.0,
+        "feedback": "Good answer!"
       }
     },
     {
@@ -2715,19 +2715,19 @@
         "telematics",
         "$1,000"
       ],
-      "generated_answer": "I don't have information about a telematics-based pricing feature or its launch schedule for the product that costs $1,000/month for the Basic Tier. If you have any other questions or need further assistance, feel free to ask!",
+      "generated_answer": "The telematics-based pricing feature is scheduled to launch in **Q2 2025**. However, this feature is not specifically mentioned as part of the **Basic Tier ($1,000/month)** in the provided context.\n\nThe Basic Tier includes core features and standard reporting, while telematics-based pricing is part of the broader **Carllm** roadmap. If you're interested in this feature for the Basic Tier, I recommend reaching out to our sales team to confirm availability or discuss upgrading to a higher tier that includes it.\n\nWould you like help connecting with sales for more details?",
       "reference_answer": "Carllm, which costs $1,000/month for Basic Tier, has telematics-based pricing scheduled to launch in Q2 2025.",
       "retrieval": {
-        "mrr": 0.25,
-        "ndcg": 0.24000000000000005,
-        "keyword_coverage": 50.0,
-        "keywords_found": 2
+        "mrr": 1.0,
+        "ndcg": 2.0,
+        "keyword_coverage": 100.0,
+        "keywords_found": 4
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.975609756097561,
-        "feedback": "Missing keywords: Carllm, Q2 2025 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.6338028169014085,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2739,18 +2739,18 @@
         "$199",
         "first product"
       ],
-      "generated_answer": "The monthly cost for the **Basic Listing Fee** on **Markellm** (Insurellm's first product) is **$199/month**. This fee provides insurance companies with a featured listing on the platform, offering exposure to potential customers.\n\nWould you like details on additional pricing options, such as performance-based leads?",
+      "generated_answer": "The monthly cost for the **Basic Listing Fee** on **Markellm** (Insurellm's first product) is **$199/month**. This fee provides a featured listing on the platform, offering exposure to potential customers.\n\nWould you like details on additional pricing options, such as performance-based lead fees?",
       "reference_answer": "Markellm, Insurellm's first product, has a Basic Listing Fee of $199/month.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.8181818181818183,
+        "ndcg": 2.0,
         "keyword_coverage": 66.66666666666666,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.43478260869565216,
+        "relevance": 0.4545454545454546,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2765,19 +2765,19 @@
         "Lancaster",
         "founded"
       ],
-      "generated_answer": "I don't have the information about the number of core values of Insurellm. Is there anything else you would like to know about Avery Lancaster or Insurellm?",
+      "generated_answer": "The provided context does not specify the number of core values for Insurellm, the company co-founded by Avery Lancaster. If you have additional details or another source of information, I\u2019d be happy to help further! Otherwise, I don\u2019t have the answer to that question.",
       "reference_answer": "Insurellm, founded by Avery Lancaster, has four core values: Innovation First, Customer Obsession, Integrity & Transparency, and Collaborative Excellence.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.2,
+        "ndcg": 2.3636363636363638,
         "keyword_coverage": 60.0,
         "keywords_found": 3
       },
       "answer": {
-        "accuracy": 3.0,
+        "accuracy": 4.0,
         "completeness": 3.0,
-        "relevance": 0.24390243902439024,
-        "feedback": "Missing keywords: four, founded | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.3773584905660377,
+        "feedback": "Missing keywords: four | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2790,19 +2790,19 @@
         "$15,000",
         "Advanced Medication Management"
       ],
-      "generated_answer": "The **Professional Tier** of Healthllm costs **$15,000 per month** and includes advanced analytics and predictive modeling. However, the **Comprehensive Medication Management** features you mentioned are part of **Lifellm's roadmap**, not Healthllm's current pricing tiers.\n\nWould you like details on Lifellm's medication management capabilities or Healthllm's other features?",
+      "generated_answer": "The **Professional Tier** of Healthllm costs **$15,000 per month** and includes **Advanced Medication Management** as part of its features. This tier is designed for larger insurers and offers advanced analytics, predictive modeling, and expanded integration options, along with support for up to **50,000 covered members**.\n\nWould you like more details about the features included in this tier?",
       "reference_answer": "The Professional Tier of Healthllm costs $15,000 per month and includes Advanced Medication Management features.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.4400000000000002,
+        "ndcg": 2.181818181818182,
         "keyword_coverage": 75.0,
         "keywords_found": 3
       },
       "answer": {
-        "accuracy": 3.75,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.0869565217391304,
-        "feedback": "Missing keywords: Advanced Medication Management | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 1.0,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2816,19 +2816,19 @@
         "50,000",
         "$28,000"
       ],
-      "generated_answer": "The client paying $28,000 per month for Lifellm is **Metropolitan Life Group**, and the contract mentions they are on the **Enterprise Tier**. However, the provided context does not specify the exact number of active policies they manage.\n\nFor reference:\n- The **Growth Tier** (e.g., Heritage Life Assurance and Guardian Life Partners) supports up to **10,000 active policies**.\n- The **Enterprise Tier** is custom-priced and likely supports a higher volume, but the exact number isn't stated in the given details.\n\nWould you like me to check if additional information is available?",
+      "generated_answer": "The client who pays $28,000 per month for Lifellm is Metropolitan Life Group, and they manage over 50,000 active policies.",
       "reference_answer": "Metropolitan Life Group, which pays $28,000 per month for Lifellm, manages 50,000+ active policies.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.7200000000000004,
-        "keyword_coverage": 80.0,
-        "keywords_found": 4
+        "ndcg": 3.1818181818181817,
+        "keyword_coverage": 100.0,
+        "keywords_found": 5
       },
       "answer": {
-        "accuracy": 4.0,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.40540540540540543,
-        "feedback": "Missing keywords: 50,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 2.0833333333333335,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -2862,7 +2862,7 @@
         "$125,000",
         "Carlos"
       ],
-      "generated_answer": "Carlos Rodriguez's current salary is not explicitly stated in the provided context. The most recent compensation details available are from 2023, which include a base salary of $152,000 and a bonus of $28,000. If you need further assistance or have any other questions, feel free to ask!",
+      "generated_answer": "I don't have the information about Carlos Rodriguez's current salary. Could you provide more context or details?",
       "reference_answer": "Carlos Rodriguez's current salary is $125,000.",
       "retrieval": {
         "mrr": 1.0,
@@ -2873,7 +2873,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.5681818181818181,
+        "relevance": 0.75,
         "feedback": "Missing keywords: $125,000 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2909,7 +2909,7 @@
         "Business Intelligence Analyst",
         "Nina"
       ],
-      "generated_answer": "I don't have information about Nina Patel's job title in the provided context. Is there anything else I can help you with regarding Insurellm or the employees mentioned?",
+      "generated_answer": "I don't have information about Nina Patel's job title. Could you provide more context or clarify your question?",
       "reference_answer": "Nina Patel is a Business Intelligence Analyst at Insurellm.",
       "retrieval": {
         "mrr": 0.0,
@@ -2920,7 +2920,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.30303030303030304,
+        "relevance": 0.19230769230769232,
         "feedback": "Missing keywords: Business Intelligence Analyst | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -2955,18 +2955,18 @@
         "April 2020",
         "Alex Chen"
       ],
-      "generated_answer": "The provided context does not specify when Alex Chen joined Insurellm. It only mentions their contributions, certifications, and involvement in initiatives as of the given notes. If you have additional details or another document, I\u2019d be happy to help further!",
+      "generated_answer": "The provided context does not specify when Alex Chen joined Insurellm. It only mentions their contributions, certifications, and involvement in initiatives during their time at the company. If you have additional details or need further assistance, feel free to ask!",
       "reference_answer": "Alex Chen joined Insurellm in April 2020 as a Junior Backend Developer.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.3333333333333333,
+        "mrr": 1.0,
+        "ndcg": 0.6666666666666666,
         "keyword_coverage": 50.0,
         "keywords_found": 1
       },
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.5434782608695652,
+        "relevance": 0.43478260869565216,
         "feedback": "Missing keywords: April 2020 | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3001,7 +3001,7 @@
         "March 15, 2025",
         "Summit"
       ],
-      "generated_answer": "The contract between Insurellm and Summit Commercial Insurance for the Bizllm platform was effective from **March 15, 2025**.",
+      "generated_answer": "The contract between Insurellm and Summit Commercial Insurance for the Bizllm platform became effective on **March 15, 2025**.",
       "reference_answer": "The Summit Commercial Insurance Bizllm contract became effective on March 15, 2025.",
       "retrieval": {
         "mrr": 1.0,
@@ -3012,8 +3012,8 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.9047619047619047,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 2.631578947368421,
+        "feedback": "Answer too long - could be more concise"
       }
     },
     {
@@ -3047,19 +3047,19 @@
         "January 20, 2025",
         "Evergreen"
       ],
-      "generated_answer": "The contract between Insurellm and Evergreen Life Insurance for the Lifellm platform was signed on **January 20, 2025**.",
+      "generated_answer": "The contract with Evergreen Life Insurance for Lifellm was signed on **January 20, 2025**.",
       "reference_answer": "The Evergreen Life Insurance Lifellm contract was signed on January 20, 2025.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
-        "completeness": 3.0,
-        "relevance": 2.631578947368421,
-        "feedback": "Answer too long - could be more concise"
+        "completeness": 5.0,
+        "relevance": 3.125,
+        "feedback": "Good answer!"
       }
     },
     {
@@ -3075,7 +3075,7 @@
       "reference_answer": "Insurellm reached a peak of 200 employees in 2020.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.6363636363636365,
+        "ndcg": 1.8181818181818183,
         "keyword_coverage": 100.0,
         "keywords_found": 3
       },
@@ -3094,7 +3094,7 @@
         "$10,000",
         "Apex"
       ],
-      "generated_answer": "The monthly cost for Apex Reinsurance's Rellm subscription is **$10,000 per month** under the **Professional Plan**, which includes AI-driven analytics, seamless integrations, risk assessment modules, customizable dashboards, regulatory compliance tools, and client and broker portals. Payments are due on the first day of each month.",
+      "generated_answer": "The monthly cost for Apex Reinsurance's Rellm subscription is **$10,000 per month** under the **Professional Plan**. This plan includes all features, advanced integrations, and priority customer support.",
       "reference_answer": "Apex Reinsurance pays $10,000 per month for the Rellm solution.",
       "retrieval": {
         "mrr": 1.0,
@@ -3105,7 +3105,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.5319148936170213,
+        "relevance": 0.8064516129032258,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3117,18 +3117,18 @@
         "1,400",
         "Evergreen"
       ],
-      "generated_answer": "Evergreen Life Insurance currently manages **1,400 active policies** as the baseline under the Starter Tier package with Insurellm. The Starter Tier supports up to **2,000 active policies** for underwriting and administration.\n\nWould you like details on how the Lifellm platform handles policy scaling or additional features?",
+      "generated_answer": "Evergreen Life Insurance currently manages a baseline of **1,400 active policies** on the Lifellm platform under the Starter Tier package. The Starter Tier supports up to **2,000 active policies** in total.\n\nWould you like details on scaling options if they approach the limit?",
       "reference_answer": "Evergreen Life Insurance currently manages 1,400 active policies.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 2.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.7317073170731707,
+        "relevance": 0.8108108108108109,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3140,7 +3140,7 @@
         "15",
         "Summit"
       ],
-      "generated_answer": "The contract with Summit Commercial Insurance includes onboarding training for **up to 15 staff members** as part of the initial 3-week intensive training program.\n\nAdditionally, under the **Training** section, it mentions **up to 20 staff members** for the initial comprehensive onboarding (40 hours). This suggests that while the intensive training covers 15, the broader onboarding may support up to 20 users.\n\nWould you like clarification on any other details?",
+      "generated_answer": "The contract specifies that the onboarding training program is designed for **up to 15 Summit Commercial staff members**. This suggests that the agreement includes provisions for training **15 user licenses** as part of the onboarding process.\n\nWould you like any additional details about the training or support terms?",
       "reference_answer": "Summit Commercial Insurance receives onboarding training for up to 15 staff members.",
       "retrieval": {
         "mrr": 1.0,
@@ -3151,7 +3151,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.9433962264150944,
+        "relevance": 0.9302325581395349,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3164,7 +3164,7 @@
         "Michael",
         "O'Brien"
       ],
-      "generated_answer": "Michael O'Brien generated $8.2 million in new business over the past three years.",
+      "generated_answer": "Michael O'Brien generated $8.2 million in new business over the past 3 years.",
       "reference_answer": "Michael O'Brien generated $8.2M in new business over the past 3 years.",
       "retrieval": {
         "mrr": 1.0,
@@ -3175,7 +3175,7 @@
       "answer": {
         "accuracy": 3.333333333333333,
         "completeness": 5.0,
-        "relevance": 3.333333333333333,
+        "relevance": 3.9285714285714284,
         "feedback": "Missing keywords: $8.2M"
       }
     },
@@ -3188,19 +3188,19 @@
         "Rachel",
         "Martinez"
       ],
-      "generated_answer": "Rachel Martinez leads the product strategy for **Carllm**, which is Insurellm's auto insurance portal.",
+      "generated_answer": "I'm sorry, but I don't have the information about which product Rachel Martinez leads the product strategy for. Could you please provide more context or clarify your question?",
       "reference_answer": "Rachel Martinez leads product strategy for Carllm, the auto insurance portal.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.8181818181818182,
-        "keyword_coverage": 100.0,
-        "keywords_found": 3
+        "mrr": 0.0,
+        "ndcg": 0.0,
+        "keyword_coverage": 0.0,
+        "keywords_found": 0
       },
       "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 3.333333333333333,
-        "feedback": "Good answer!"
+        "accuracy": 3.333333333333333,
+        "completeness": 3.0,
+        "relevance": 0.967741935483871,
+        "feedback": "Missing keywords: Carllm | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -3235,18 +3235,18 @@
         "Business",
         "Summit"
       ],
-      "generated_answer": "Summit Commercial Insurance subscribed to the **Business Tier** of Bizllm. This tier includes features such as a multi-line underwriting engine, business intelligence integration, commercial property evaluation, and workers' compensation optimization. The monthly fee for this tier is **$6,000**.",
+      "generated_answer": "Summit Commercial Insurance subscribed to the **Business Tier** of Bizllm, which costs **$6,000 per month**. This tier includes core underwriting and policy administration capabilities for regional commercial insurers writing select lines of business.",
       "reference_answer": "Summit Commercial Insurance subscribed to the Business Tier of Bizllm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.3333333333333333,
+        "ndcg": 2.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.4705882352941178,
+        "relevance": 1.2121212121212122,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3258,7 +3258,7 @@
         "Solutions Engineer of the Year",
         "Carlos"
       ],
-      "generated_answer": "I'm sorry, but I don't have any information about Carlos Rodriguez or any awards they may have won in 2023. If you have any other questions about Insurellm or need further assistance, feel free to ask!",
+      "generated_answer": "I don't have any information about Carlos Rodriguez winning an award in 2023. If you have more details or context, I'd be happy to help further!",
       "reference_answer": "Carlos Rodriguez won Solutions Engineer of the Year 2023.",
       "retrieval": {
         "mrr": 0.0,
@@ -3269,7 +3269,7 @@
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.5714285714285714,
+        "relevance": 0.4838709677419355,
         "feedback": "Missing keywords: Solutions Engineer of the Year | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3281,19 +3281,19 @@
         "Michael Torres",
         "Summit"
       ],
-      "generated_answer": "Michael Torres, the Chief Revenue Officer of Insurellm, Inc., signed the contract with Summit Commercial Insurance.",
+      "generated_answer": "The provided context does not specify who signed the Summit Commercial Insurance contract on behalf of Insurellm. If you have additional details or need further assistance, feel free to ask!",
       "reference_answer": "Michael Torres, Chief Revenue Officer, signed the Summit Commercial Insurance contract on behalf of Insurellm.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 1.0,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "ndcg": 0.6666666666666666,
+        "keyword_coverage": 50.0,
+        "keywords_found": 1
       },
       "answer": {
-        "accuracy": 5.0,
-        "completeness": 5.0,
-        "relevance": 2.5,
-        "feedback": "Good answer!"
+        "accuracy": 2.5,
+        "completeness": 3.0,
+        "relevance": 1.4705882352941178,
+        "feedback": "Missing keywords: Michael Torres | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -3304,7 +3304,7 @@
         "salary",
         "employees"
       ],
-      "generated_answer": "Based on the provided context, there is no information about any employees at Insurellm with a current salary under $80,000. The lowest base salary mentioned is $92,000 in 2019. Therefore, I cannot provide an answer to your question.",
+      "generated_answer": "Based on the provided context, there is **one employee** at Insurellm with a current (2023) base salary under $80,000:\n\n- **UX Designer (2020 hire):** $70,000 (2020), but their latest recorded salary in 2023 is $95,000, which is above $80,000.\n\nHowever, if we consider historical data, in **2021**, the UX Designer earned $78,000 (below $80,000), but their salary has since increased.\n\n**Current (2023) salaries under $80,000:** **0** (all listed employees now earn above this threshold).\n\nWould you like details on past years or other compensation trends?",
       "reference_answer": "Based on the employee records, there are several employees with salaries under $80,000, including Tyler Brooks ($75,000) and Alex Harper ($75,000).",
       "retrieval": {
         "mrr": 1.0,
@@ -3315,7 +3315,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.7142857142857142,
+        "relevance": 0.47058823529411764,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3327,7 +3327,7 @@
         "Healthllm",
         "contract value"
       ],
-      "generated_answer": "I don't have the total contract value for all Healthllm contracts combined. The only specific contract value I have is for the Advantage Medical Coverage contract, which is $270,000 over 18 months.",
+      "generated_answer": "Based on the provided context, we only have the contract details for **Advantage Medical Coverage**, which is an **18-month contract** with **monthly payments of $15,000**, totaling **$270,000**.\n\nHowever, the context mentions that Insurellm has **6 active Healthllm contracts** in total. Since we don\u2019t have the financial details of the other 5 contracts, we cannot calculate the **total combined value** of all Healthllm contracts.\n\nWould you like me to check if there\u2019s additional information available on the other contracts?",
       "reference_answer": "The total contract value of all Healthllm contracts is $3,504,000, combining United Healthcare Alliance ($2,784,000), Harmony Health Plans ($360,000), and other Healthllm clients.",
       "retrieval": {
         "mrr": 1.0,
@@ -3336,10 +3336,10 @@
         "keywords_found": 1
       },
       "answer": {
-        "accuracy": 5.0,
+        "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 1.0526315789473684,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.44871794871794873,
+        "feedback": "Missing keywords: contract value | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -3350,7 +3350,7 @@
         "contracts",
         "products"
       ],
-      "generated_answer": "According to the company overview, **Commercial Insurance (Bizllm)** and **Claims Processing (Claimllm)** both have the most active contracts, with **7 contracts each**. These two product lines are tied for the highest number of active contracts at Insurellm.",
+      "generated_answer": "According to the company overview, **Bizllm (Commercial Insurance)** and **Claimllm (Claims Processing)** both have the highest number of active contracts, with **7 contracts each**.\n\nThese two product lines are tied for the most active contracts at Insurellm.",
       "reference_answer": "According to the company overview, both Bizllm and Claimllm are tied with the most active contracts at 7 contracts each.",
       "retrieval": {
         "mrr": 1.0,
@@ -3396,18 +3396,18 @@
         "Carllm",
         "monthly cost"
       ],
-      "generated_answer": "Based on the provided context, the average monthly subscription cost across all Carllm contracts can be calculated as follows:\n\n1. **Basic Tier**: $1,000/month\n2. **Professional Tier**: $2,500/month\n3. **Enterprise Tier (Continental Commercial Group)**: $42,000/month for the first 12 months.\n\nTo find the average, we sum these values and divide by the number of contracts:\n\n- Sum: $1,000 + $2,500 + $42,000 = $45,500\n- Number of contracts: 3\n- Average: $45,500 / 3 \u2248 **$15,166.67/month**\n\nThis average is heavily influenced by the high-cost Enterprise contract. If you exclude the Enterprise tier, the average between the Basic and Professional tiers would be:\n\n- Sum: $1,000 + $2,500 = $3,500\n- Number of contracts: 2\n- Average: $3,500 / 2 = **$1,750/month**",
+      "generated_answer": "Based on the provided context, there is only one Carllm contract mentioned, which is with TechDrive Insurance. They are subscribed to the **Professional Tier** at **$2,500/month**.\n\nSince no other Carllm contracts are listed, the average monthly subscription cost is simply **$2,500**.\n\nIf you'd like insights into other contracts or pricing models (e.g., Markellm), let me know!",
       "reference_answer": "The average monthly subscription cost across Carllm contracts varies, with examples including Roadway Insurance at $2,500/month for Professional Tier, though specific averages require aggregating all Carllm contract data.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 0.6666666666666666,
+        "ndcg": 1.0,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.6770833333333333,
+        "relevance": 0.7692307692307693,
         "feedback": "Missing keywords: monthly cost | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3419,19 +3419,19 @@
         "products",
         "insurance lines"
       ],
-      "generated_answer": "Insurellm offers **8 different insurance software products** across multiple insurance lines. Here's the breakdown:\n\n1. **Carllm** - Auto insurance platform\n2. **Homellm** - Home insurance platform\n3. **Lifellm** - Life insurance platform\n4. **Healthllm** - Health insurance platform\n5. **Bizllm** - Commercial insurance platform\n6. **Claimllm** - Claims processing platform\n\n*(Note: The context mentions 8 products but lists 6. The other two may be additional specialized platforms not explicitly named in the provided details.)*\n\nWould you like more details on any of these?",
+      "generated_answer": "Insurellm offers a total of **8 different insurance product lines**. Here's the full list:\n\n1. **Carllm** (Auto insurance)\n2. **Homellm** (Home insurance)\n3. **Lifellm** (Life insurance)\n4. **Healthllm** (Health insurance)\n5. **Bizllm** (Commercial insurance)\n6. **Claimllm** (Claims processing)\n7. **Markellm** (Insurance marketplace)\n8. *(Note: The context mentions 8 products but lists 7 by name. The 8th may be an additional or unnamed product line.)*\n\nWould you like details on any specific product?",
       "reference_answer": "Insurellm offers 8 different insurance software products: Carllm, Homellm, Lifellm, Healthllm, Bizllm, Markellm, Claimllm, and Rellm.",
       "retrieval": {
-        "mrr": 0.5,
-        "ndcg": 0.6666666666666666,
+        "mrr": 1.0,
+        "ndcg": 1.6666666666666667,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
-        "accuracy": 5.0,
+        "accuracy": 2.5,
         "completeness": 3.0,
-        "relevance": 0.410958904109589,
-        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.3289473684210526,
+        "feedback": "Missing keywords: insurance lines | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -3442,7 +3442,7 @@
         "contracts",
         "fewest"
       ],
-      "generated_answer": "According to the portfolio breakdown, the **Insurance Marketplace (Markellm)** and **Reinsurance (Rellm)** products each have the fewest active contracts, with **2 contracts** each.",
+      "generated_answer": "According to the portfolio breakdown, the product with the fewest active contracts is **Insurance Marketplace (Markellm)**, which has **2 contracts**.",
       "reference_answer": "According to the portfolio breakdown, both Markellm and Rellm are tied with the fewest active contracts at 2 contracts each.",
       "retrieval": {
         "mrr": 1.0,
@@ -3453,7 +3453,7 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 5.0,
-        "relevance": 1.7241379310344829,
+        "relevance": 1.6666666666666665,
         "feedback": "Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3465,19 +3465,19 @@
         "contracts",
         "total"
       ],
-      "generated_answer": "Insurellm currently has **32 active contracts** across all its insurance technology products. These contracts span commercial insurance, claims processing, life insurance, health insurance, auto insurance, and home insurance solutions.",
+      "generated_answer": "Insurellm currently has a total of **32 active contracts** across all its product lines. These contracts span the full spectrum of insurance technology, including commercial insurance, claims processing, life insurance, health insurance, auto insurance, home insurance, and insurance marketplaces.",
       "reference_answer": "Insurellm has 32 active contracts across all product lines, serving clients ranging from regional insurers to national carriers and global reinsurance partners.",
       "retrieval": {
         "mrr": 1.0,
         "ndcg": 1.0,
-        "keyword_coverage": 100.0,
-        "keywords_found": 2
+        "keyword_coverage": 50.0,
+        "keywords_found": 1
       },
       "answer": {
-        "accuracy": 2.5,
+        "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.875,
-        "feedback": "Missing keywords: total | Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
+        "relevance": 0.851063829787234,
+        "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
     {
@@ -3488,18 +3488,18 @@
         "United Healthcare",
         "states"
       ],
-      "generated_answer": "According to the contract, United Healthcare Alliance operates in **12 states**. The Healthllm Enterprise suite provided by Insurellm includes full support for multi-state operations, including state-specific plan designs, regulatory compliance, and other localized features across all 12 states.",
+      "generated_answer": "According to the contract, United Healthcare Alliance operates in **12 states**. The agreement includes support for multi-state operations, covering state-specific requirements, regulatory compliance, and other regional needs across all 12 states where they operate.",
       "reference_answer": "United Healthcare Alliance operates across 12 states according to their Healthllm contract, supporting 250,000+ members.",
       "retrieval": {
         "mrr": 1.0,
-        "ndcg": 2.0,
+        "ndcg": 1.3333333333333333,
         "keyword_coverage": 100.0,
         "keywords_found": 2
       },
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 1.1904761904761905,
+        "relevance": 1.3157894736842104,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     },
@@ -3511,7 +3511,7 @@
         "contract",
         "duration"
       ],
-      "generated_answer": "The longest contract duration among the provided Insurellm contracts is **36 months**. This duration applies to both:\n\n1. The contract with **National Claims Network** (Contract Number: CL-2025-E-0198, dated April 20, 2025).\n2. The contract with **Metropolitan Life Group** (Contract Number: LF-2025-E-0087, dated April 5, 2025).\n\nBoth agreements are effective for a period of 36 months from their respective contract dates.",
+      "generated_answer": "The longest contract duration among the provided Insurellm contracts is **36 months**, as seen in the agreement with **National Claims Network Corp.** (effective from April 20, 2025, to April 19, 2028).\n\nThis surpasses the 24-month term in the **Premier Adjusters Inc.** contract.",
       "reference_answer": "The longest contract duration is 48 months (4 years) for the United Healthcare Alliance Healthllm contract, representing Insurellm's most strategic long-term healthcare partnership.",
       "retrieval": {
         "mrr": 1.0,
@@ -3522,18 +3522,18 @@
       "answer": {
         "accuracy": 5.0,
         "completeness": 3.0,
-        "relevance": 0.5737704918032787,
+        "relevance": 0.4807692307692308,
         "feedback": "Answer too long - could be more concise | Answer diverges from reference - may have hallucinations"
       }
     }
   ],
   "summary": {
     "total_tests": 150,
-    "avg_accuracy": 4.2316666666666665,
-    "avg_completeness": 3.5866666666666664,
-    "avg_relevance": 1.6235092676239244,
-    "avg_mrr": 0.865,
-    "avg_ndcg": 1.2790060606060605,
-    "avg_keyword_coverage": 84.22222222222221
+    "avg_accuracy": 4.20888888888889,
+    "avg_completeness": 3.493333333333333,
+    "avg_relevance": 1.5845120535030952,
+    "avg_mrr": 0.8499999999999999,
+    "avg_ndcg": 1.3084848484848481,
+    "avg_keyword_coverage": 79.28888888888889
   }
 }
