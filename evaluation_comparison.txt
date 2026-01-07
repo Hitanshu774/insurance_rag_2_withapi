@@ -1,0 +1,80 @@
+###################################################################
+Case 1:
+
+eval llm => mistralai/devstral-2512:free
+chunk_size = 800, chunk_overlap = 250
+"k": 4
+
+Total Tests Run: 150
+
+Average Scores:
+  Accuracy:         4.23/5.0
+  Completeness:     3.59/5.0
+  Relevance:        1.62/5.0
+  Overall:          3.15/5.0
+
+Retrieval Metrics:
+  Mean Reciprocal Rank (MRR): 0.8650
+  nDCG (Normalized Gains):    1.2790
+  Keyword Coverage:           84.2%
+
+#####################################################################
+Case 2:
+
+eval llm => mistralai/devstral-2512:free
+chunk_size = 800, chunk_overlap = 150
+"k": 4
+
+Total Tests Run: 150
+
+Average Scores:
+  Accuracy:         4.27/5.0
+  Completeness:     3.61/5.0
+  Relevance:        1.73/5.0
+  Overall:          3.20/5.0
+
+Retrieval Metrics:
+  Mean Reciprocal Rank (MRR): 0.8761
+  nDCG (Normalized Gains):    1.2965
+  Keyword Coverage:           83.8%
+
+######################################################################
+Case 3:
+
+eval llm => mistralai/devstral-2512:free
+chunk_size = 800, chunk_overlap = 150
+"k": 5
+
+Total Tests Run: 150
+
+Average Scores:
+  Accuracy:         4.35/5.0
+  Completeness:     3.71/5.0
+  Relevance:        1.74/5.0
+  Overall:          3.27/5.0
+
+Retrieval Metrics:
+  Mean Reciprocal Rank (MRR): 0.8801
+  nDCG (Normalized Gains):    1.2927
+  Keyword Coverage:           85.4%
+
+######################################################################
+
+================================================================================
+EVALUATION SUMMARY REPORT
+================================================================================
+
+Total Tests Run: 150
+
+Average Scores:
+  Accuracy:         4.21/5.0
+  Completeness:     3.49/5.0
+  Relevance:        1.58/5.0
+  Overall:          3.10/5.0
+
+Retrieval Metrics:
+  Mean Reciprocal Rank (MRR): 0.8500
+  nDCG (Normalized Gains):    1.3085
+  Keyword Coverage:           79.3%
+
+================================================================================
